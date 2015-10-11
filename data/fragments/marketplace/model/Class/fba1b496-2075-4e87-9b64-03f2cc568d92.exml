@@ -1,12 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Capability" version="3">
-  <DEPS>
-    <ID name="Capability" mc="Class" uid="fba1b496-2075-4e87-9b64-03f2cc568d92"/>
-    <FOREIGNID name="Capability_Class" mc="Stereotype" uid="01ec25d4-0000-161f-0000-000000000000"/>
-  </DEPS>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Sell" version="4">
   <OBJECT>
-    <ID name="Capability" mc="Class" uid="fba1b496-2075-4e87-9b64-03f2cc568d92"/>
-    <PID name="Package" mc="Package" uid="c98303d9-10a4-46e9-9dc4-2738d3b26ab9"/>
+    <ID name="Sell" mc="Standard.Class" uid="fba1b496-2075-4e87-9b64-03f2cc568d92"/>
+    <PID name="Package" mc="Standard.Package" uid="c98303d9-10a4-46e9-9dc4-2738d3b26ab9"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -15,13 +11,45 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Capability]]></ATT>
+      <ATT name="Name"><![CDATA[Sell]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedOperation">
+        <OBJECT>
+          <ID name="publishGoods" mc="Standard.Operation" uid="08c65e15-9892-4117-a221-d86a7b27f666"/>
+          <ATTRIBUTES>
+            <ATT name="Concurrency">false</ATT>
+            <ATT name="Final">false</ATT>
+            <ATT name="Passing">MethodOut</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[publishGoods]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
       <LINK relation="Extension">
-        <FOREIGNID name="Capability_Class" mc="Stereotype" uid="01ec25d4-0000-161f-0000-000000000000"/>
+        <FOREIGNID name="Capability_Class" mc="Standard.Stereotype" uid="01ec25d4-0000-161f-0000-000000000000"/>
       </LINK>
+      <COMP relation="DependsOnDependency">
+        <OBJECT>
+          <ID name="" mc="Standard.Usage" uid="83effa93-b3d6-45e3-abe6-27ed8092fc19"/>
+          <ATTRIBUTES>
+            <ATT name="DependsOnId"></ATT>
+            <ATT name="DependsOnName"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="CRUD" mc="Standard.Class" uid="dc33e10b-56dc-43d5-a21e-ac03da965196"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>

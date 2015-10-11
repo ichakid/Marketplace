@@ -1011,7 +1011,7 @@
         <COMPID name="Seller" mc="Standard.Class" uid="0133c2d0-d129-4818-b9f4-5645f3c6f0c6"/>
         <COMPID name="PaymentGateway" mc="Standard.Class" uid="e725aee4-54e3-4b9d-a20f-4d80f2161e0d"/>
         <COMPID name="Shipper" mc="Standard.Class" uid="17ca10a0-01aa-4239-9e77-11a315ef6971"/>
-        <COMPID name="Capability" mc="Standard.Class" uid="fba1b496-2075-4e87-9b64-03f2cc568d92"/>
+        <COMPID name="Sell" mc="Standard.Class" uid="fba1b496-2075-4e87-9b64-03f2cc568d92"/>
         <COMPID name="Goods Viewer" mc="Standard.Interface" uid="892a339c-d873-4eec-8c30-c3542ba7ae61"/>
         <COMPID name="Goods Publisher" mc="Standard.Interface" uid="beb6d827-d35c-4b38-95fc-caf59f3f0f4f"/>
         <COMPID name="Buyer" mc="Standard.Class" uid="7f83bc83-f1b5-40ec-b2e4-aba25b818ed4"/>
@@ -1454,6 +1454,11 @@
         <COMPID name="Publish Goods Interface" mc="Standard.Class" uid="532cd074-275f-46a7-8582-859dc40475ab"/>
         <COMPID name="ShipmentStatus" mc="Standard.Class" uid="4d96b67c-3dc2-4f53-af37-c8c85228d5f2"/>
         <COMPID name="PaymentStatus" mc="Standard.Class" uid="2bb9e5c9-1a5c-4425-9bdf-e79067d01026"/>
+        <COMPID name="Purchase" mc="Standard.Class" uid="cece54cd-0549-4da5-b4a4-3a7ec6dbeec2"/>
+        <COMPID name="Pay" mc="Standard.Class" uid="d9be476d-5009-4c1c-a2c9-745f093f9b3d"/>
+        <COMPID name="Ship" mc="Standard.Class" uid="2522e055-191b-475a-b109-b69afea6d7bc"/>
+        <COMPID name="CRUD" mc="Standard.Class" uid="dc33e10b-56dc-43d5-a21e-ac03da965196"/>
+        <COMPID name="OrderProcessing" mc="Standard.Class" uid="dc0de772-f5b1-4b39-983b-1960391f26b6"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="SoaMLPackage" mc="Standard.Stereotype" uid="45a59b18-e4a9-11de-a5c8-001302895b2b"/>
