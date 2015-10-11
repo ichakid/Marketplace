@@ -934,6 +934,11 @@
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES>
+                        <LINK relation="Role">
+                          <REFOBJ>
+                            <ID name="consumer" mc="Standard.BindableInstance" uid="4d2b61ec-2460-45c5-9045-66ce010b4185"/>
+                          </REFOBJ>
+                        </LINK>
                         <LINK relation="RepresentedFeature">
                           <REFOBJ>
                             <ID name="" mc="Standard.BindableInstance" uid="c3c4bc71-3501-404e-81a6-48a96c6a5c4c"/>
@@ -1272,6 +1277,7 @@
         <COMPID name="Payment Distributor" mc="Standard.Interface" uid="26beab3d-5412-499f-b255-3de5898eb2eb"/>
         <COMPID name="Status Provider" mc="Standard.Interface" uid="6f4d996b-bb80-4046-8d5b-70a61d5d30c7"/>
         <COMPID name="Shipment Provider" mc="Standard.Interface" uid="ce8214fb-7789-4627-ae13-8a3a43833320"/>
+        <COMPID name="Buy Goods" mc="Standard.Class" uid="6dc5ceb8-a64d-4a78-bd1b-8db6a0b9f28f"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="SoaMLPackage" mc="Standard.Stereotype" uid="45a59b18-e4a9-11de-a5c8-001302895b2b"/>

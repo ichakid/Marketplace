@@ -1,12 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Viewer" version="3">
-  <DEPS>
-    <ID name="Viewer" mc="Class" uid="469607ba-d5ae-4cc6-881b-a5865e0cee48"/>
-    <FOREIGNID name="Participant" mc="Stereotype" uid="01ec25d4-0000-169e-0000-000000000000"/>
-  </DEPS>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Viewer" version="4">
   <OBJECT>
-    <ID name="Viewer" mc="Class" uid="469607ba-d5ae-4cc6-881b-a5865e0cee48"/>
-    <PID name="Package" mc="Package" uid="c98303d9-10a4-46e9-9dc4-2738d3b26ab9"/>
+    <ID name="Viewer" mc="Standard.Class" uid="469607ba-d5ae-4cc6-881b-a5865e0cee48"/>
+    <PID name="Package" mc="Standard.Package" uid="c98303d9-10a4-46e9-9dc4-2738d3b26ab9"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
@@ -19,8 +15,61 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="InternalStructure">
+        <OBJECT>
+          <ID name="~Publish Goods" mc="Standard.Port" uid="89ebee36-dee9-421b-a808-da4c4b7f23ab"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[~Publish Goods]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Provided">
+              <OBJECT>
+                <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="9a0ef666-e508-49aa-ad97-52af710e0827"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ProvidedInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ProvidedElement">
+                    <ID name="Goods Viewer" mc="Standard.Interface" uid="892a339c-d873-4eec-8c30-c3542ba7ae61"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Required">
+              <OBJECT>
+                <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="aa47aedd-32df-42e1-85e0-e62dbd6b2562"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="RequiredElement">
+                    <ID name="Goods Publisher" mc="Standard.Interface" uid="beb6d827-d35c-4b38-95fc-caf59f3f0f4f"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Base">
+              <ID name="Publish Goods" mc="Standard.Class" uid="72ea3d90-85d0-40da-a5d2-51edd1ad1b64"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="Request" mc="Standard.Stereotype" uid="01ec25d4-0000-16bd-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
       <LINK relation="Extension">
-        <FOREIGNID name="Participant" mc="Stereotype" uid="01ec25d4-0000-169e-0000-000000000000"/>
+        <FOREIGNID name="Participant" mc="Standard.Stereotype" uid="01ec25d4-0000-169e-0000-000000000000"/>
       </LINK>
     </DEPENDENCIES>
   </OBJECT>
