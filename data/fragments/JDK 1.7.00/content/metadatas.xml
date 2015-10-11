@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ram-component manifest-version="2.0"
+               name="JDK" version="1" release="7" clevel="0" metamodel="9022">
+    <description>
+        <![CDATA[JDK 1.7.00 45 light for Modelio 3.2.0 / SQL Designer]]>
+    </description>
+    <dependencies>
+    </dependencies>
+    <contributors>
+      <contributor name="JavaDesigner" version="3.2.00.9022"></contributor>
+    </contributors>
+    <roots>
+      <root metaclass="Project" name="JDK" uuid="c8425435-9d77-4f58-86cb-2e7ff889e252"></root>
+    </roots>
+</ram-component>

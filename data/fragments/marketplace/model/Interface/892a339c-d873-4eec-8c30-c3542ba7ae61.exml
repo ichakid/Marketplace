@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Goods Viewer" version="3">
+  <DEPS>
+    <ID name="Goods Viewer" mc="Interface" uid="892a339c-d873-4eec-8c30-c3542ba7ae61"/>
+    <FOREIGNID name="Consumer_Interface" mc="Stereotype" uid="d701f546-2518-11df-9d5e-001302895b2b"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Goods Viewer" mc="Interface" uid="892a339c-d873-4eec-8c30-c3542ba7ae61"/>
+    <PID name="Package" mc="Package" uid="c98303d9-10a4-46e9-9dc4-2738d3b26ab9"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Goods Viewer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="Consumer_Interface" mc="Stereotype" uid="d701f546-2518-11df-9d5e-001302895b2b"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

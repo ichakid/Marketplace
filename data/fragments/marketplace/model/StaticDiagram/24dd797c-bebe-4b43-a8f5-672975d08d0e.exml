@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Service Interface diagram" version="3">
+  <DEPS>
+    <ID name="Service Interface diagram" mc="StaticDiagram" uid="24dd797c-bebe-4b43-a8f5-672975d08d0e"/>
+    <FOREIGNID name="ServiceInterfaceDiagram" mc="Stereotype" uid="c54c1089-51fa-11df-beb4-0014224f9977"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Service Interface diagram" mc="StaticDiagram" uid="24dd797c-bebe-4b43-a8f5-672975d08d0e"/>
+    <PID name="Package" mc="Package" uid="c98303d9-10a4-46e9-9dc4-2738d3b26ab9"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">155</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[Service Interface diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="ServiceInterfaceDiagram" mc="Stereotype" uid="c54c1089-51fa-11df-beb4-0014224f9977"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="d127aa73-2ab9-4f60-8f28-a4cef86aeedb"/>
+          <PID name="Service Interface diagram" mc="StaticDiagram" uid="24dd797c-bebe-4b43-a8f5-672975d08d0e"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[The Service Interface diagram is dedicated to model Service Interfaces, Providers, Consumers and their relationships]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

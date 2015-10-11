@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="java" version="3">
+  <DEPS>
+    <ID name="java" mc="Package" uid="00d00398-0000-2723-0000-000000000000"/>
+    <COMPID name="io" mc="Package" uid="00d00398-0000-2dfe-0000-000000000000"/>
+    <COMPID name="lang" mc="Package" uid="00d00398-0000-2abd-0000-000000000000"/>
+    <COMPID name="sql" mc="Package" uid="00d00398-0000-2e6c-0000-000000000000"/>
+    <COMPID name="util" mc="Package" uid="00d00398-0000-2b8c-0000-000000000000"/>
+    <FOREIGNID name="JavaPackage" mc="Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="java" mc="Package" uid="00d00398-0000-2723-0000-000000000000"/>
+    <PID name="JDK" mc="Package" uid="01c7031d-79b8-4752-aa18-c7790784a6ac"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[java]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="io" mc="Package" uid="00d00398-0000-2dfe-0000-000000000000"/>
+        <COMPID name="lang" mc="Package" uid="00d00398-0000-2abd-0000-000000000000"/>
+        <COMPID name="sql" mc="Package" uid="00d00398-0000-2e6c-0000-000000000000"/>
+        <COMPID name="util" mc="Package" uid="00d00398-0000-2b8c-0000-000000000000"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

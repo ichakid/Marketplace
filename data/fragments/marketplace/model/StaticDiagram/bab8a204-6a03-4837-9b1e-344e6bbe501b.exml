@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Message diagram" version="3">
+  <DEPS>
+    <ID name="Message diagram" mc="StaticDiagram" uid="bab8a204-6a03-4837-9b1e-344e6bbe501b"/>
+    <FOREIGNID name="MessageDiagram" mc="Stereotype" uid="1496037e-e4a6-11de-a5c8-001302895b2b"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Message diagram" mc="StaticDiagram" uid="bab8a204-6a03-4837-9b1e-344e6bbe501b"/>
+    <PID name="Package" mc="Package" uid="c98303d9-10a4-46e9-9dc4-2738d3b26ab9"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">94</ATT>
+      <ATT name="UiData"><![CDATA[eJztVdtu2kAQ/RXL6isGAk3TihARe0sRvsk2bXlCazwhm6y9aHcJ+O+75pICFZarppSHPnlvZ+bMmfFM526VUu0FuCAsu9WbRkPX7rodL36CqdRIoo50TeZzuNUZnxkpS4ASZiQEzzhODUiIZNwQEkvybACFFDIpNvvp7lE/Ddd7a7PXtRQ/MT55ddrQux2fszlwmWsZTpUvinO2kBaWWN19xXQBWxLZglK93u3Ud4BfoKHMKegHIVyVhSCK98KYMg7GBluBn4nFFCeQ7JyhlQzgoaIXV5nYIjVYSSseKI7rZbFI4AEvqCwPcuBGKPjcM9EkQH6AwonjWehIKpQt0k+VIh5C/i6AOQehsqcyxTJHQXTtpbCmFI2CkRmNAmRVJRV+8b6FaoO8aOyj8I+IhY9sGUrgwAr0AbEIfY/KKfleEBUS/U15Bk6vj8ppWMhHroVcc3xB0vTMoSJ+OYRMuxeGF0THc3zPRW50QZTWCvWis1EamJ57RKm+6atlNDlQLCFRDfGIl1McvXaV/ZmgxTi+wVeNdu0aN1q19k3rQ+1j3IRaq92G6ziG941mXC4OxUIOM7bMbBwDPfIcSk6ymd51QAg8A20rSKe+flQaDKMwyEyWzpkgxb9/wnIFU+YjoQmHwoJNRCHh9nMSYZPsWVR/fj+zOF4qOjbOgR/OwFbpGN8N7mSDFwYtLKjJfWDwPIP791D/pthIcqIMrL5h98YomNyr9toPvJFrvU1lVPjv9nP1s2r2aqD9vwbOWgOR57918k9e/QC7mh4M]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[Message diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="MessageDiagram" mc="Stereotype" uid="1496037e-e4a6-11de-a5c8-001302895b2b"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="a8e46d18-6964-4376-8d87-0fbc1cfb529c"/>
+          <PID name="Message diagram" mc="StaticDiagram" uid="bab8a204-6a03-4837-9b1e-344e6bbe501b"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Message Diagram is dedicated to model SoaML Message Types as well as their internals using links to classes representing the data model]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

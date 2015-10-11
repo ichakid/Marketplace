@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="marketplace" version="3">
+  <DEPS>
+    <ID name="marketplace" mc="Project" uid="667217a3-d491-4790-b36b-abff83049b07"/>
+    <COMPID name="marketplace" mc="DiagramSet" uid="9ec5aef1-208c-4937-b8fe-268e678ea61c"/>
+    <COMPID name="marketplace" mc="Package" uid="fc50589e-c386-465f-9399-42bfefc57e29"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="marketplace" mc="Project" uid="667217a3-d491-4790-b36b-abff83049b07"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[marketplace]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DiagramRoot">
+        <COMPID name="marketplace" mc="DiagramSet" uid="9ec5aef1-208c-4937-b8fe-268e678ea61c"/>
+      </COMP>
+      <COMP relation="Model">
+        <COMPID name="marketplace" mc="Package" uid="fc50589e-c386-465f-9399-42bfefc57e29"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

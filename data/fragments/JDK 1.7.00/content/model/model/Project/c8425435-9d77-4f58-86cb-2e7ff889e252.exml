@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="JDK" version="3">
+  <DEPS>
+    <ID name="JDK" mc="Project" uid="c8425435-9d77-4f58-86cb-2e7ff889e252"/>
+    <COMPID name="JDK" mc="Package" uid="01c7031d-79b8-4752-aa18-c7790784a6ac"/>
+    <FOREIGNID name="ModelComponentElementAlias" mc="Stereotype" uid="3254be34-c7d8-4018-8a68-5de65c30b773"/>
+    <FOREIGNID name="uuid" mc="TagType" uid="7ebbd53f-a5f3-433b-872c-4024615af229"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="JDK" mc="Project" uid="c8425435-9d77-4f58-86cb-2e7ff889e252"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[JDK]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="JDK" mc="Package" uid="01c7031d-79b8-4752-aa18-c7790784a6ac"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="ModelComponentElementAlias" mc="Stereotype" uid="3254be34-c7d8-4018-8a68-5de65c30b773"/>
+      </LINK>
+      <COMP relation="Tag">
+        <OBJECT>
+          <ID name="" mc="TaggedValue" uid="f1f145a1-d0d1-462a-9137-fabf7afc6400"/>
+          <PID name="JDK" mc="Project" uid="c8425435-9d77-4f58-86cb-2e7ff889e252"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Actual">
+              <OBJECT>
+                <ID name="" mc="TagParameter" uid="43c69cb0-2a44-4244-b59d-fe5fa95c8957"/>
+                <PID name="JDK" mc="Project" uid="c8425435-9d77-4f58-86cb-2e7ff889e252"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[3c489ef3-2799-46ed-83c9-b3c457f9af15]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Definition">
+              <FOREIGNID name="uuid" mc="TagType" uid="7ebbd53f-a5f3-433b-872c-4024615af229"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

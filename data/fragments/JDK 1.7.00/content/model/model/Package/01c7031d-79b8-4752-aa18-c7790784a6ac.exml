@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="JDK" version="3">
+  <DEPS>
+    <ID name="JDK" mc="Package" uid="01c7031d-79b8-4752-aa18-c7790784a6ac"/>
+    <COMPID name="JDK" mc="Artifact" uid="01ec0d38-0000-0002-0000-000000000000"/>
+    <COMPID name="java" mc="Package" uid="00d00398-0000-2723-0000-000000000000"/>
+    <FOREIGNID name="ModelComponentElementAlias" mc="Stereotype" uid="3254be34-c7d8-4018-8a68-5de65c30b773"/>
+    <FOREIGNID name="uuid" mc="TagType" uid="7ebbd53f-a5f3-433b-872c-4024615af229"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="JDK" mc="Package" uid="01c7031d-79b8-4752-aa18-c7790784a6ac"/>
+    <PID name="JDK" mc="Project" uid="c8425435-9d77-4f58-86cb-2e7ff889e252"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[JDK]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="JDK" mc="Artifact" uid="01ec0d38-0000-0002-0000-000000000000"/>
+        <COMPID name="java" mc="Package" uid="00d00398-0000-2723-0000-000000000000"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="ModelComponentElementAlias" mc="Stereotype" uid="3254be34-c7d8-4018-8a68-5de65c30b773"/>
+      </LINK>
+      <COMP relation="Tag">
+        <OBJECT>
+          <ID name="" mc="TaggedValue" uid="9fdb5ff4-1763-4206-900a-b387f2fa12f7"/>
+          <PID name="JDK" mc="Package" uid="01c7031d-79b8-4752-aa18-c7790784a6ac"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Actual">
+              <OBJECT>
+                <ID name="" mc="TagParameter" uid="db5138c9-f23e-4d2e-9609-046b8263d045"/>
+                <PID name="JDK" mc="Package" uid="01c7031d-79b8-4752-aa18-c7790784a6ac"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[00818030-f461-10ff-917d-001e4fea2d8b]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Definition">
+              <FOREIGNID name="uuid" mc="TagType" uid="7ebbd53f-a5f3-433b-872c-4024615af229"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

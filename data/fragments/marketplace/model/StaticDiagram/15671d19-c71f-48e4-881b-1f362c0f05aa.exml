@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Capability diagram" version="3">
+  <DEPS>
+    <ID name="Capability diagram" mc="StaticDiagram" uid="15671d19-c71f-48e4-881b-1f362c0f05aa"/>
+    <FOREIGNID name="CapabilityDiagram" mc="Stereotype" uid="0208014c-0000-350c-0000-000000000000"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Capability diagram" mc="StaticDiagram" uid="15671d19-c71f-48e4-881b-1f362c0f05aa"/>
+    <PID name="Package" mc="Package" uid="c98303d9-10a4-46e9-9dc4-2738d3b26ab9"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">153</ATT>
+      <ATT name="UiData"><![CDATA[eJztmlFv4jgQgP8KQvdKIClQ2O12RUOORQWCErp3vRfkJIZ668TINtvSX392IGyhSzYNEFAVqVKxicdj+5vxTIarr88+LvyElCESfCmqSqVY+Hp9ZTo/oMsLyBNdxQJfzOCXIqFTxScexIgoHgJTCnwFeogTqjAOOHpUIIY+DDhbtt3ooY5vh+32sl0s+OAHoeP1pJXi9dWQkhmkfFEIgC/mwmBB5rwNOBDffQd4DldKBHOMi+Xrq3I04M1Qmy8wLG4sQYtbApPPM8UlFCrLsQn00wFzgQe9aDLjmVtwknCWgRCxGlmAz7ztdIWO4Uf5wYMTMMc8fpHdwciw/m7pxtgyhpZhj/tm29jaKiOY+58SrfgWLv6y4IxCJk5PnBQJ+mJIsfBTShM7OrLu9NGdZbSTKmV/M/+xRcMwR/dDw95LMfuBPNkcUkjk6A3FRsa/o3iVhqY1klt0zO3p9lsdI16NtjE0Bm1joN+f0da09Fuh+PkopPdatn1G6pj9oTkwBqMzUincodYoM5W6ujnYUqm89KtxalKIAYeecIhbevVl19qrvL4TCmqtfql6arPkXqqTUrUBq6VGQ3VK6uSirrmVSaUGQPzmYMD4bUCegh5wIN6a2eYUBdPitQ5mwEEYiVGrPbkqh8/Frodg2A104s8IQ9L8dwhPIEp/QNijUEroIcY3bqmLFBeti8HLi7hgdbF6ttfFagk1QDDFvw6/efFZnMrnkir+3n3lVo9+5cr7dnm5HwnQcE8LEweoTrVZL2mVy1qpChuXpaZTr5YqFxPNdWv1htfc1mA/MM8HyNq+QA4p8gFdDEKXknXQV09KoBD1vNgbw2qO4S4M+wAFkoE9cbxMgaOUymbAhQ9QHBoVYA6inm9hT/ZcNjLzjPUcyV1ILg8/gUAmgqMxct8IuiFiJhCst2QCMIPxqw1FPcLFE6HeAaRx4D6OWRi3/UEap/MkquHfHML7RQGHcQpcnmKFaz5fWUsz3R3EGJqg0N71dcOCDL0AB8MOJfNZ9oavVrK9kXLzP1ZgpKZ5Jwa4mNyZcziV+AkyW1HHqXhM/FrsMDwK/nMgdwjdZCENnuXVv3h3qqZJMqXA8LVXRK4ZdZyK3MTZZU7u0YN7yB+Id2xs06SiKBDBUSDiDBG0uHwuaOj43VWfHfWdAN6ME9Mc3t3wRjjsGw+kSU0T4XkqB5s4ST0Qox8jVj0gmcd2qGnyqkTE/keCEzhVLePc6oMAexSnKgk4MLnJoNbSpGUoCCAN3xiENIvG/rUUaRRT+W5xdaYp6idanpydDdAhFXuGCFqaxGsHmycKCrSMsy4tr+ydKjzQ0uVbv6UVshOFBBnnWTmu5xISvP1qax7EvosWckGKckfyWd4WwZUVV38IFy4S1EW0VCmnD6ZwXRIN6z3SVGWvLIvasnfJxiGjn+3KeALTza5GmpftdxqtLVaJhcwklvsRyqRJdUtZJz2I5+qh4JHFuMetx2+mbQqexGn2wEJY5KaRxb8CiHyGtxTAFCxFCHexITGbW/19o07z80O0DWtkRu2O0mvdG9b4pqXfdizzbtA+9FW4U8rrs/qFzevfHMa+N8khODgEI3OYWSD0P9vbdtU=]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[Capability diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="CapabilityDiagram" mc="Stereotype" uid="0208014c-0000-350c-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="a9623658-ccfb-46aa-8e10-ddd511efc903"/>
+          <PID name="Capability diagram" mc="StaticDiagram" uid="15671d19-c71f-48e4-881b-1f362c0f05aa"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[The Capability diagram is used for designing Capabilities (functions) and relations between them (use links). Capabilities can be placed in packages to separate domains.]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

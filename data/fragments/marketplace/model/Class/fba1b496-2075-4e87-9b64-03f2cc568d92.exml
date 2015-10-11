@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Capability" version="3">
+  <DEPS>
+    <ID name="Capability" mc="Class" uid="fba1b496-2075-4e87-9b64-03f2cc568d92"/>
+    <FOREIGNID name="Capability_Class" mc="Stereotype" uid="01ec25d4-0000-161f-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Capability" mc="Class" uid="fba1b496-2075-4e87-9b64-03f2cc568d92"/>
+    <PID name="Package" mc="Package" uid="c98303d9-10a4-46e9-9dc4-2738d3b26ab9"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Capability]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="Capability_Class" mc="Stereotype" uid="01ec25d4-0000-161f-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

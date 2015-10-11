@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="reflect" version="3">
+  <DEPS>
+    <ID name="reflect" mc="Package" uid="00d00398-0000-2ac4-0000-000000000000"/>
+    <COMPID name="AccessibleObject" mc="Class" uid="00d00398-0000-2acf-0000-000000000000"/>
+    <COMPID name="AnnotatedElement" mc="Interface" uid="00d00398-0000-2ad2-0000-000000000000"/>
+    <COMPID name="Array" mc="Class" uid="00d00398-0000-2ac6-0000-000000000000"/>
+    <COMPID name="Constructor" mc="Class" uid="00d00398-0000-2ac9-0000-000000000000"/>
+    <COMPID name="Field" mc="Class" uid="00d00398-0000-2acd-0000-000000000000"/>
+    <COMPID name="GenericArrayType" mc="Interface" uid="00d00398-0000-2ac7-0000-000000000000"/>
+    <COMPID name="GenericDeclaration" mc="Interface" uid="00d00398-0000-2ac5-0000-000000000000"/>
+    <COMPID name="GenericSignatureFormatError" mc="Class" uid="00d00398-0000-2ad8-0000-000000000000"/>
+    <COMPID name="InvocationHandler" mc="Interface" uid="00d00398-0000-2acb-0000-000000000000"/>
+    <COMPID name="InvocationTargetException" mc="Class" uid="00d00398-0000-2ada-0000-000000000000"/>
+    <COMPID name="MalformedParameterizedTypeException" mc="Class" uid="00d00398-0000-2ad0-0000-000000000000"/>
+    <COMPID name="Member" mc="Interface" uid="00d00398-0000-2acc-0000-000000000000"/>
+    <COMPID name="Method" mc="Class" uid="00d00398-0000-2aca-0000-000000000000"/>
+    <COMPID name="Modifier" mc="Class" uid="00d00398-0000-2ad5-0000-000000000000"/>
+    <COMPID name="ParameterizedType" mc="Interface" uid="00d00398-0000-2ac8-0000-000000000000"/>
+    <COMPID name="Proxy" mc="Class" uid="00d00398-0000-2ad9-0000-000000000000"/>
+    <COMPID name="ReflectPermission" mc="Class" uid="00d00398-0000-2ace-0000-000000000000"/>
+    <COMPID name="Type" mc="Interface" uid="00d00398-0000-2ad4-0000-000000000000"/>
+    <COMPID name="TypeVariable" mc="Interface" uid="00d00398-0000-2ad3-0000-000000000000"/>
+    <COMPID name="UndeclaredThrowableException" mc="Class" uid="00d00398-0000-2ad6-0000-000000000000"/>
+    <COMPID name="WildcardType" mc="Interface" uid="00d00398-0000-2ad1-0000-000000000000"/>
+    <FOREIGNID name="JavaPackage" mc="Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="reflect" mc="Package" uid="00d00398-0000-2ac4-0000-000000000000"/>
+    <PID name="lang" mc="Package" uid="00d00398-0000-2abd-0000-000000000000"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[reflect]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AccessibleObject" mc="Class" uid="00d00398-0000-2acf-0000-000000000000"/>
+        <COMPID name="AnnotatedElement" mc="Interface" uid="00d00398-0000-2ad2-0000-000000000000"/>
+        <COMPID name="Array" mc="Class" uid="00d00398-0000-2ac6-0000-000000000000"/>
+        <COMPID name="Constructor" mc="Class" uid="00d00398-0000-2ac9-0000-000000000000"/>
+        <COMPID name="Field" mc="Class" uid="00d00398-0000-2acd-0000-000000000000"/>
+        <COMPID name="GenericArrayType" mc="Interface" uid="00d00398-0000-2ac7-0000-000000000000"/>
+        <COMPID name="GenericDeclaration" mc="Interface" uid="00d00398-0000-2ac5-0000-000000000000"/>
+        <COMPID name="GenericSignatureFormatError" mc="Class" uid="00d00398-0000-2ad8-0000-000000000000"/>
+        <COMPID name="InvocationHandler" mc="Interface" uid="00d00398-0000-2acb-0000-000000000000"/>
+        <COMPID name="InvocationTargetException" mc="Class" uid="00d00398-0000-2ada-0000-000000000000"/>
+        <COMPID name="MalformedParameterizedTypeException" mc="Class" uid="00d00398-0000-2ad0-0000-000000000000"/>
+        <COMPID name="Member" mc="Interface" uid="00d00398-0000-2acc-0000-000000000000"/>
+        <COMPID name="Method" mc="Class" uid="00d00398-0000-2aca-0000-000000000000"/>
+        <COMPID name="Modifier" mc="Class" uid="00d00398-0000-2ad5-0000-000000000000"/>
+        <COMPID name="ParameterizedType" mc="Interface" uid="00d00398-0000-2ac8-0000-000000000000"/>
+        <COMPID name="Proxy" mc="Class" uid="00d00398-0000-2ad9-0000-000000000000"/>
+        <COMPID name="ReflectPermission" mc="Class" uid="00d00398-0000-2ace-0000-000000000000"/>
+        <COMPID name="Type" mc="Interface" uid="00d00398-0000-2ad4-0000-000000000000"/>
+        <COMPID name="TypeVariable" mc="Interface" uid="00d00398-0000-2ad3-0000-000000000000"/>
+        <COMPID name="UndeclaredThrowableException" mc="Class" uid="00d00398-0000-2ad6-0000-000000000000"/>
+        <COMPID name="WildcardType" mc="Interface" uid="00d00398-0000-2ad1-0000-000000000000"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

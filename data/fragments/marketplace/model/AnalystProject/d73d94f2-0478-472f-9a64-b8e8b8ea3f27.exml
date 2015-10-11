@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="marketplace" version="3">
+  <DEPS>
+    <ID name="marketplace" mc="AnalystProject" uid="d73d94f2-0478-472f-9a64-b8e8b8ea3f27"/>
+    <COMPID name="marketplace" mc="PropertyContainer" uid="a7f60f3f-4643-4458-a3f3-6fc9ce5173cd"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="marketplace" mc="AnalystProject" uid="d73d94f2-0478-472f-9a64-b8e8b8ea3f27"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[marketplace]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="PropertyRoot">
+        <COMPID name="marketplace" mc="PropertyContainer" uid="a7f60f3f-4643-4458-a3f3-6fc9ce5173cd"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

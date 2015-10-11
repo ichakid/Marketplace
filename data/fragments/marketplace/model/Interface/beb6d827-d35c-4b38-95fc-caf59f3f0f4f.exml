@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Goods Publisher" version="3">
+  <DEPS>
+    <ID name="Goods Publisher" mc="Interface" uid="beb6d827-d35c-4b38-95fc-caf59f3f0f4f"/>
+    <FOREIGNID name="Provider_Interface" mc="Stereotype" uid="e61adf27-2518-11df-9d5e-001302895b2b"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Goods Publisher" mc="Interface" uid="beb6d827-d35c-4b38-95fc-caf59f3f0f4f"/>
+    <PID name="Package" mc="Package" uid="c98303d9-10a4-46e9-9dc4-2738d3b26ab9"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">true</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Goods Publisher]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="Provider_Interface" mc="Stereotype" uid="e61adf27-2518-11df-9d5e-001302895b2b"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

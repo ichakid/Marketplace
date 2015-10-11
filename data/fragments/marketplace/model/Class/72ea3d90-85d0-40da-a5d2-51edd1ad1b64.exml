@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Publish Goods" version="3">
+  <DEPS>
+    <ID name="Publish Goods" mc="Class" uid="72ea3d90-85d0-40da-a5d2-51edd1ad1b64"/>
+    <FOREIGNID name="ServiceInterface_Class" mc="Stereotype" uid="01ec25d4-0000-16d2-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Publish Goods" mc="Class" uid="72ea3d90-85d0-40da-a5d2-51edd1ad1b64"/>
+    <PID name="Package" mc="Package" uid="c98303d9-10a4-46e9-9dc4-2738d3b26ab9"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Publish Goods]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="ServiceInterface_Class" mc="Stereotype" uid="01ec25d4-0000-16d2-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
