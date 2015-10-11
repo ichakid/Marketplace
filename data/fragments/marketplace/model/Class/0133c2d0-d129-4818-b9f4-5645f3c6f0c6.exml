@@ -59,9 +59,6 @@
                 </DEPENDENCIES>
               </OBJECT>
             </COMP>
-            <LINK relation="Base">
-              <ID name="Publish Goods" mc="Standard.Class" uid="72ea3d90-85d0-40da-a5d2-51edd1ad1b64"/>
-            </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="Service" mc="Standard.Stereotype" uid="01ec25d4-0000-16e3-0000-000000000000"/>
             </LINK>
@@ -97,7 +94,7 @@
               </OBJECT>
             </COMP>
             <LINK relation="Base">
-              <ID name="Distribute Payment" mc="Standard.Class" uid="68eccafe-7612-4ad0-aabb-61a0c14c17c5"/>
+              <ID name="Distribute Payment Interface" mc="Standard.Class" uid="68eccafe-7612-4ad0-aabb-61a0c14c17c5"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="Request" mc="Standard.Stereotype" uid="01ec25d4-0000-16bd-0000-000000000000"/>
@@ -148,7 +145,7 @@
               </OBJECT>
             </COMP>
             <LINK relation="Base">
-              <ID name="Buy Goods" mc="Standard.Class" uid="6dc5ceb8-a64d-4a78-bd1b-8db6a0b9f28f"/>
+              <ID name="Buy Goods Interface" mc="Standard.Class" uid="6dc5ceb8-a64d-4a78-bd1b-8db6a0b9f28f"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="Service" mc="Standard.Stereotype" uid="01ec25d4-0000-16e3-0000-000000000000"/>
@@ -185,7 +182,7 @@
               </OBJECT>
             </COMP>
             <LINK relation="Base">
-              <ID name="Shipping Request" mc="Standard.Class" uid="e67afbd5-39bb-4a02-abf2-cdda28a08475"/>
+              <ID name="Shipping Request Interface" mc="Standard.Class" uid="e67afbd5-39bb-4a02-abf2-cdda28a08475"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="Request" mc="Standard.Stereotype" uid="01ec25d4-0000-16bd-0000-000000000000"/>

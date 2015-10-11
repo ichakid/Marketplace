@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Payment" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Payment Interface" version="4">
   <OBJECT>
-    <ID name="Payment" mc="Standard.Class" uid="e22db379-9550-45ce-9399-7a73cb41c01f"/>
+    <ID name="Payment Interface" mc="Standard.Class" uid="e22db379-9550-45ce-9399-7a73cb41c01f"/>
     <PID name="Package" mc="Standard.Package" uid="c98303d9-10a4-46e9-9dc4-2738d3b26ab9"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Payment]]></ATT>
+      <ATT name="Name"><![CDATA[Payment Interface]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

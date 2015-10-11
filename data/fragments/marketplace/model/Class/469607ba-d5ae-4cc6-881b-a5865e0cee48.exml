@@ -59,9 +59,6 @@
                 </DEPENDENCIES>
               </OBJECT>
             </COMP>
-            <LINK relation="Base">
-              <ID name="Publish Goods" mc="Standard.Class" uid="72ea3d90-85d0-40da-a5d2-51edd1ad1b64"/>
-            </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="Request" mc="Standard.Stereotype" uid="01ec25d4-0000-16bd-0000-000000000000"/>
             </LINK>

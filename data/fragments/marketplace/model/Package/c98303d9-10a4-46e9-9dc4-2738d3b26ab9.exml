@@ -36,7 +36,7 @@
                 <DEPENDENCIES>
                   <LINK relation="Type">
                     <REFOBJ>
-                      <ID name="PublishGoods" mc="Standard.Collaboration" uid="4e162862-4147-4c65-b8b4-13600e453c43"/>
+                      <ID name="PublishGoodsContract" mc="Standard.Collaboration" uid="4e162862-4147-4c65-b8b4-13600e453c43"/>
                     </REFOBJ>
                   </LINK>
                   <COMP relation="RoleBinding">
@@ -80,7 +80,7 @@
                 <DEPENDENCIES>
                   <LINK relation="Type">
                     <REFOBJ>
-                      <ID name="BuyGoods" mc="Standard.Collaboration" uid="f5c94a98-f9cd-4d51-b657-3a850cf8227d"/>
+                      <ID name="BuyGoodsContract" mc="Standard.Collaboration" uid="f5c94a98-f9cd-4d51-b657-3a850cf8227d"/>
                     </REFOBJ>
                   </LINK>
                   <COMP relation="RoleBinding">
@@ -124,7 +124,7 @@
                 <DEPENDENCIES>
                   <LINK relation="Type">
                     <REFOBJ>
-                      <ID name="Payment" mc="Standard.Collaboration" uid="b69e004a-ccf0-4987-a97f-a1809ffc1131"/>
+                      <ID name="PaymentContract" mc="Standard.Collaboration" uid="b69e004a-ccf0-4987-a97f-a1809ffc1131"/>
                     </REFOBJ>
                   </LINK>
                   <COMP relation="RoleBinding">
@@ -168,7 +168,7 @@
                 <DEPENDENCIES>
                   <LINK relation="Type">
                     <REFOBJ>
-                      <ID name="DistributePayment" mc="Standard.Collaboration" uid="d2ba7fd8-7943-4518-b788-4f67e440bebe"/>
+                      <ID name="DistributePaymentContract" mc="Standard.Collaboration" uid="d2ba7fd8-7943-4518-b788-4f67e440bebe"/>
                     </REFOBJ>
                   </LINK>
                   <COMP relation="RoleBinding">
@@ -212,7 +212,7 @@
                 <DEPENDENCIES>
                   <LINK relation="Type">
                     <REFOBJ>
-                      <ID name="Shipping Request" mc="Standard.Collaboration" uid="7997d2e3-24ba-4457-958e-6a2b1e6ad7e9"/>
+                      <ID name="ShipmentRequestConract" mc="Standard.Collaboration" uid="7997d2e3-24ba-4457-958e-6a2b1e6ad7e9"/>
                     </REFOBJ>
                   </LINK>
                   <COMP relation="RoleBinding">
@@ -256,7 +256,7 @@
                 <DEPENDENCIES>
                   <LINK relation="Type">
                     <REFOBJ>
-                      <ID name="ShippingStatus" mc="Standard.Collaboration" uid="e66479d9-d555-46ce-920c-0c6e0c86637e"/>
+                      <ID name="ShipmentStatusContract" mc="Standard.Collaboration" uid="e66479d9-d555-46ce-920c-0c6e0c86637e"/>
                     </REFOBJ>
                   </LINK>
                   <COMP relation="RoleBinding">
@@ -381,14 +381,14 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="PublishGoods" mc="Standard.Collaboration" uid="4e162862-4147-4c65-b8b4-13600e453c43"/>
+          <ID name="PublishGoodsContract" mc="Standard.Collaboration" uid="4e162862-4147-4c65-b8b4-13600e453c43"/>
           <ATTRIBUTES>
             <ATT name="IsConcurrent">false</ATT>
             <ATT name="IsAbstract">false</ATT>
             <ATT name="IsLeaf">false</ATT>
             <ATT name="IsRoot">false</ATT>
             <ATT name="Visibility">Public</ATT>
-            <ATT name="Name"><![CDATA[PublishGoods]]></ATT>
+            <ATT name="Name"><![CDATA[PublishGoodsContract]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -487,14 +487,14 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="BuyGoods" mc="Standard.Collaboration" uid="f5c94a98-f9cd-4d51-b657-3a850cf8227d"/>
+          <ID name="BuyGoodsContract" mc="Standard.Collaboration" uid="f5c94a98-f9cd-4d51-b657-3a850cf8227d"/>
           <ATTRIBUTES>
             <ATT name="IsConcurrent">false</ATT>
             <ATT name="IsAbstract">false</ATT>
             <ATT name="IsLeaf">false</ATT>
             <ATT name="IsRoot">false</ATT>
             <ATT name="Visibility">Public</ATT>
-            <ATT name="Name"><![CDATA[BuyGoods]]></ATT>
+            <ATT name="Name"><![CDATA[BuyGoodsContract]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -593,14 +593,14 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="Payment" mc="Standard.Collaboration" uid="b69e004a-ccf0-4987-a97f-a1809ffc1131"/>
+          <ID name="PaymentContract" mc="Standard.Collaboration" uid="b69e004a-ccf0-4987-a97f-a1809ffc1131"/>
           <ATTRIBUTES>
             <ATT name="IsConcurrent">false</ATT>
             <ATT name="IsAbstract">false</ATT>
             <ATT name="IsLeaf">false</ATT>
             <ATT name="IsRoot">false</ATT>
             <ATT name="Visibility">Public</ATT>
-            <ATT name="Name"><![CDATA[Payment]]></ATT>
+            <ATT name="Name"><![CDATA[PaymentContract]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -696,14 +696,14 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="DistributePayment" mc="Standard.Collaboration" uid="d2ba7fd8-7943-4518-b788-4f67e440bebe"/>
+          <ID name="DistributePaymentContract" mc="Standard.Collaboration" uid="d2ba7fd8-7943-4518-b788-4f67e440bebe"/>
           <ATTRIBUTES>
             <ATT name="IsConcurrent">false</ATT>
             <ATT name="IsAbstract">false</ATT>
             <ATT name="IsLeaf">false</ATT>
             <ATT name="IsRoot">false</ATT>
             <ATT name="Visibility">Public</ATT>
-            <ATT name="Name"><![CDATA[DistributePayment]]></ATT>
+            <ATT name="Name"><![CDATA[DistributePaymentContract]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -733,9 +733,9 @@
                       <DEPENDENCIES>
                         <COMP relation="Link">
                           <OBJECT>
-                            <ID name="" mc="Standard.Link" uid="b078d733-12eb-4516-9139-91047789057b"/>
+                            <ID name="getPayment" mc="Standard.Link" uid="b078d733-12eb-4516-9139-91047789057b"/>
                             <ATTRIBUTES>
-                              <ATT name="Name"></ATT>
+                              <ATT name="Name"><![CDATA[getPayment]]></ATT>
                               <ATT name="status">1970354901745664</ATT>
                             </ATTRIBUTES>
                             <DEPENDENCIES>
@@ -763,7 +763,7 @@
                             </ATTRIBUTES>
                             <DEPENDENCIES>
                               <COMP relation="Link">
-                                <COMPID name="" mc="Standard.Link" uid="b078d733-12eb-4516-9139-91047789057b"/>
+                                <COMPID name="getPayment" mc="Standard.Link" uid="b078d733-12eb-4516-9139-91047789057b"/>
                               </COMP>
                               <COMP relation="Opposite">
                                 <COMPID name="" mc="Standard.LinkEnd" uid="09503c87-8ec2-4c44-a367-b7f8b97f4596"/>
@@ -799,14 +799,14 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="ShippingStatus" mc="Standard.Collaboration" uid="e66479d9-d555-46ce-920c-0c6e0c86637e"/>
+          <ID name="ShipmentStatusContract" mc="Standard.Collaboration" uid="e66479d9-d555-46ce-920c-0c6e0c86637e"/>
           <ATTRIBUTES>
             <ATT name="IsConcurrent">false</ATT>
             <ATT name="IsAbstract">false</ATT>
             <ATT name="IsLeaf">false</ATT>
             <ATT name="IsRoot">false</ATT>
             <ATT name="Visibility">Public</ATT>
-            <ATT name="Name"><![CDATA[ShippingStatus]]></ATT>
+            <ATT name="Name"><![CDATA[ShipmentStatusContract]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -822,8 +822,63 @@
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
+                  <COMP relation="OwnedEnd">
+                    <OBJECT>
+                      <ID name="" mc="Standard.LinkEnd" uid="d87aee1c-0945-4b13-ae53-3b56e6f111c7"/>
+                      <ATTRIBUTES>
+                        <ATT name="IsOrdered">false</ATT>
+                        <ATT name="IsUnique">false</ATT>
+                        <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                        <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Link">
+                          <OBJECT>
+                            <ID name="getStatus" mc="Standard.Link" uid="6169ffca-26e9-4952-a3f3-01607c232d1b"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[getStatus]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <LINK relation="Extension">
+                                <FOREIGNID name="ServiceChannel" mc="Standard.Stereotype" uid="01ec25d4-0000-16c8-0000-000000000000"/>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="provider" mc="Standard.BindableInstance" uid="81a44ed6-fcb6-47f2-b775-3c97948a4471"/>
+                          </REFOBJ>
+                        </LINK>
+                        <COMP relation="Opposite">
+                          <OBJECT>
+                            <ID name="ServiceChannel" mc="Standard.LinkEnd" uid="ee106f4c-d1c4-4e8b-8fc6-7e19d6134472"/>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                              <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                              <ATT name="Name"><![CDATA[ServiceChannel]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="Link">
+                                <COMPID name="getStatus" mc="Standard.Link" uid="6169ffca-26e9-4952-a3f3-01607c232d1b"/>
+                              </COMP>
+                              <COMP relation="Opposite">
+                                <COMPID name="" mc="Standard.LinkEnd" uid="d87aee1c-0945-4b13-ae53-3b56e6f111c7"/>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
                   <LINK relation="Base">
-                    <ID name="Confirm Status" mc="Standard.Interface" uid="d18b2053-3bef-43bb-a157-980e9bd5539e"/>
+                    <ID name="Status Verifier" mc="Standard.Interface" uid="d18b2053-3bef-43bb-a157-980e9bd5539e"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
@@ -839,7 +894,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="Base">
-                    <ID name="Shipment Status" mc="Standard.Interface" uid="4158d3b8-c18c-4bf8-afc5-37cbeed7afcc"/>
+                    <ID name="Status Provider" mc="Standard.Interface" uid="4158d3b8-c18c-4bf8-afc5-37cbeed7afcc"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
@@ -850,14 +905,14 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="Shipping Request" mc="Standard.Collaboration" uid="7997d2e3-24ba-4457-958e-6a2b1e6ad7e9"/>
+          <ID name="ShipmentRequestConract" mc="Standard.Collaboration" uid="7997d2e3-24ba-4457-958e-6a2b1e6ad7e9"/>
           <ATTRIBUTES>
             <ATT name="IsConcurrent">false</ATT>
             <ATT name="IsAbstract">false</ATT>
             <ATT name="IsLeaf">false</ATT>
             <ATT name="IsRoot">false</ATT>
             <ATT name="Visibility">Public</ATT>
-            <ATT name="Name"><![CDATA[Shipping Request]]></ATT>
+            <ATT name="Name"><![CDATA[ShipmentRequestConract]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -872,7 +927,63 @@
                   <ATT name="Name"><![CDATA[consumer]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
-                <DEPENDENCIES></DEPENDENCIES>
+                <DEPENDENCIES>
+                  <COMP relation="OwnedEnd">
+                    <OBJECT>
+                      <ID name="" mc="Standard.LinkEnd" uid="e0de110e-00e6-4568-8359-44447212074d"/>
+                      <ATTRIBUTES>
+                        <ATT name="IsOrdered">false</ATT>
+                        <ATT name="IsUnique">false</ATT>
+                        <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                        <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Link">
+                          <OBJECT>
+                            <ID name="requestShipment" mc="Standard.Link" uid="57e9588f-c288-422b-9c3b-d7d7cba57f37"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[requestShipment]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <LINK relation="Extension">
+                                <FOREIGNID name="ServiceChannel" mc="Standard.Stereotype" uid="01ec25d4-0000-16c8-0000-000000000000"/>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="provider" mc="Standard.BindableInstance" uid="514abbbe-3ed9-46e6-9d70-63bdb9591ddd"/>
+                          </REFOBJ>
+                        </LINK>
+                        <COMP relation="Opposite">
+                          <OBJECT>
+                            <ID name="ServiceChannel" mc="Standard.LinkEnd" uid="7d9b64ad-bb0c-4a39-9686-641f0c86911f"/>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                              <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                              <ATT name="Name"><![CDATA[ServiceChannel]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="Link">
+                                <COMPID name="requestShipment" mc="Standard.Link" uid="57e9588f-c288-422b-9c3b-d7d7cba57f37"/>
+                              </COMP>
+                              <COMP relation="Opposite">
+                                <COMPID name="" mc="Standard.LinkEnd" uid="e0de110e-00e6-4568-8359-44447212074d"/>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
                 <ID name="provider" mc="Standard.BindableInstance" uid="514abbbe-3ed9-46e6-9d70-63bdb9591ddd"/>
@@ -886,7 +997,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="Base">
-                    <ID name="Shipping Provider" mc="Standard.Interface" uid="37c5362d-be11-4d60-a5e7-4dd2cfbded7e"/>
+                    <ID name="Shipment Provider" mc="Standard.Interface" uid="37c5362d-be11-4d60-a5e7-4dd2cfbded7e"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
@@ -901,7 +1012,6 @@
         <COMPID name="PaymentGateway" mc="Standard.Class" uid="e725aee4-54e3-4b9d-a20f-4d80f2161e0d"/>
         <COMPID name="Shipper" mc="Standard.Class" uid="17ca10a0-01aa-4239-9e77-11a315ef6971"/>
         <COMPID name="Capability" mc="Standard.Class" uid="fba1b496-2075-4e87-9b64-03f2cc568d92"/>
-        <COMPID name="Publish Goods" mc="Standard.Class" uid="72ea3d90-85d0-40da-a5d2-51edd1ad1b64"/>
         <COMPID name="Goods Viewer" mc="Standard.Interface" uid="892a339c-d873-4eec-8c30-c3542ba7ae61"/>
         <COMPID name="Goods Publisher" mc="Standard.Interface" uid="beb6d827-d35c-4b38-95fc-caf59f3f0f4f"/>
         <COMPID name="Buyer" mc="Standard.Class" uid="7f83bc83-f1b5-40ec-b2e4-aba25b818ed4"/>
@@ -927,7 +1037,7 @@
                 <DEPENDENCIES>
                   <LINK relation="Type">
                     <REFOBJ>
-                      <ID name="PublishGoods" mc="Standard.Collaboration" uid="4e162862-4147-4c65-b8b4-13600e453c43"/>
+                      <ID name="PublishGoodsContract" mc="Standard.Collaboration" uid="4e162862-4147-4c65-b8b4-13600e453c43"/>
                     </REFOBJ>
                   </LINK>
                   <COMP relation="RoleBinding">
@@ -957,11 +1067,6 @@
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES>
-                        <LINK relation="Role">
-                          <REFOBJ>
-                            <ID name="provider" mc="Standard.BindableInstance" uid="040a0f77-862d-4ac7-a48e-9cc40fa47aaf"/>
-                          </REFOBJ>
-                        </LINK>
                         <LINK relation="RepresentedFeature">
                           <REFOBJ>
                             <ID name="seller" mc="Standard.BindableInstance" uid="8c854086-a120-467a-8d8e-27258fb5fc8d"/>
@@ -981,7 +1086,7 @@
                 <DEPENDENCIES>
                   <LINK relation="Type">
                     <REFOBJ>
-                      <ID name="BuyGoods" mc="Standard.Collaboration" uid="f5c94a98-f9cd-4d51-b657-3a850cf8227d"/>
+                      <ID name="BuyGoodsContract" mc="Standard.Collaboration" uid="f5c94a98-f9cd-4d51-b657-3a850cf8227d"/>
                     </REFOBJ>
                   </LINK>
                   <COMP relation="RoleBinding">
@@ -1035,7 +1140,7 @@
                 <DEPENDENCIES>
                   <LINK relation="Type">
                     <REFOBJ>
-                      <ID name="Payment" mc="Standard.Collaboration" uid="b69e004a-ccf0-4987-a97f-a1809ffc1131"/>
+                      <ID name="PaymentContract" mc="Standard.Collaboration" uid="b69e004a-ccf0-4987-a97f-a1809ffc1131"/>
                     </REFOBJ>
                   </LINK>
                   <COMP relation="RoleBinding">
@@ -1089,7 +1194,7 @@
                 <DEPENDENCIES>
                   <LINK relation="Type">
                     <REFOBJ>
-                      <ID name="DistributePayment" mc="Standard.Collaboration" uid="d2ba7fd8-7943-4518-b788-4f67e440bebe"/>
+                      <ID name="DistributePaymentContract" mc="Standard.Collaboration" uid="d2ba7fd8-7943-4518-b788-4f67e440bebe"/>
                     </REFOBJ>
                   </LINK>
                   <COMP relation="RoleBinding">
@@ -1143,7 +1248,7 @@
                 <DEPENDENCIES>
                   <LINK relation="Type">
                     <REFOBJ>
-                      <ID name="ShippingStatus" mc="Standard.Collaboration" uid="e66479d9-d555-46ce-920c-0c6e0c86637e"/>
+                      <ID name="ShipmentStatusContract" mc="Standard.Collaboration" uid="e66479d9-d555-46ce-920c-0c6e0c86637e"/>
                     </REFOBJ>
                   </LINK>
                   <COMP relation="RoleBinding">
@@ -1197,7 +1302,7 @@
                 <DEPENDENCIES>
                   <LINK relation="Type">
                     <REFOBJ>
-                      <ID name="Shipping Request" mc="Standard.Collaboration" uid="7997d2e3-24ba-4457-958e-6a2b1e6ad7e9"/>
+                      <ID name="ShipmentRequestConract" mc="Standard.Collaboration" uid="7997d2e3-24ba-4457-958e-6a2b1e6ad7e9"/>
                     </REFOBJ>
                   </LINK>
                   <COMP relation="RoleBinding">
@@ -1330,18 +1435,25 @@
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
-        <COMPID name="Buy Goods" mc="Standard.Class" uid="6dc5ceb8-a64d-4a78-bd1b-8db6a0b9f28f"/>
+        <COMPID name="Buy Goods Interface" mc="Standard.Class" uid="6dc5ceb8-a64d-4a78-bd1b-8db6a0b9f28f"/>
         <COMPID name="Goods Owner" mc="Standard.Interface" uid="46d1e1a4-8d9d-4e62-9ef6-15839cd423da"/>
         <COMPID name="Goods Buyer" mc="Standard.Interface" uid="4344985b-fabc-41be-a26f-14e8c6c7c2e3"/>
-        <COMPID name="Payment" mc="Standard.Class" uid="e22db379-9550-45ce-9399-7a73cb41c01f"/>
-        <COMPID name="Distribute Payment" mc="Standard.Class" uid="68eccafe-7612-4ad0-aabb-61a0c14c17c5"/>
-        <COMPID name="Shipping Request" mc="Standard.Class" uid="e67afbd5-39bb-4a02-abf2-cdda28a08475"/>
-        <COMPID name="Shipping Status" mc="Standard.Class" uid="22b86e22-a387-4d1c-9d49-0482b76d06e8"/>
-        <COMPID name="Shipment Status" mc="Standard.Interface" uid="4158d3b8-c18c-4bf8-afc5-37cbeed7afcc"/>
-        <COMPID name="Confirm Status" mc="Standard.Interface" uid="d18b2053-3bef-43bb-a157-980e9bd5539e"/>
+        <COMPID name="Payment Interface" mc="Standard.Class" uid="e22db379-9550-45ce-9399-7a73cb41c01f"/>
+        <COMPID name="Distribute Payment Interface" mc="Standard.Class" uid="68eccafe-7612-4ad0-aabb-61a0c14c17c5"/>
+        <COMPID name="Shipment Request Interface" mc="Standard.Class" uid="e67afbd5-39bb-4a02-abf2-cdda28a08475"/>
+        <COMPID name="Shipment Status Interface" mc="Standard.Class" uid="22b86e22-a387-4d1c-9d49-0482b76d06e8"/>
+        <COMPID name="Status Provider" mc="Standard.Interface" uid="4158d3b8-c18c-4bf8-afc5-37cbeed7afcc"/>
+        <COMPID name="Status Verifier" mc="Standard.Interface" uid="d18b2053-3bef-43bb-a157-980e9bd5539e"/>
         <COMPID name="Payment Receiver" mc="Standard.Interface" uid="7ec4bec1-7b22-4506-ad7d-aac465c86e1c"/>
         <COMPID name="Payment Distributor" mc="Standard.Interface" uid="3e1427d6-c30a-4cf2-9162-8c0440ab9ca7"/>
-        <COMPID name="Shipping Provider" mc="Standard.Interface" uid="37c5362d-be11-4d60-a5e7-4dd2cfbded7e"/>
+        <COMPID name="Shipment Provider" mc="Standard.Interface" uid="37c5362d-be11-4d60-a5e7-4dd2cfbded7e"/>
+        <COMPID name="Goods" mc="Standard.Class" uid="6215907c-b7c1-4964-85db-f13cf1119c2e"/>
+        <COMPID name="Order" mc="Standard.Class" uid="7248778e-99f5-4249-8312-bb672df0796f"/>
+        <COMPID name="Payment" mc="Standard.Class" uid="52c16ae5-a6e4-4cea-a578-061ffeaa341c"/>
+        <COMPID name="Shipment" mc="Standard.Class" uid="aedd5b49-c11f-494a-8cbb-f1bd696bf6c6"/>
+        <COMPID name="Publish Goods Interface" mc="Standard.Class" uid="532cd074-275f-46a7-8582-859dc40475ab"/>
+        <COMPID name="ShipmentStatus" mc="Standard.Class" uid="4d96b67c-3dc2-4f53-af37-c8c85228d5f2"/>
+        <COMPID name="PaymentStatus" mc="Standard.Class" uid="2bb9e5c9-1a5c-4425-9bdf-e79067d01026"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="SoaMLPackage" mc="Standard.Stereotype" uid="45a59b18-e4a9-11de-a5c8-001302895b2b"/>
