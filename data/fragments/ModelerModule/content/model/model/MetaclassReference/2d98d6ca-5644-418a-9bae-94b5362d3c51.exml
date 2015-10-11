@@ -1,11 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="" version="3">
-  <DEPS>
-    <ID name="" mc="MetaclassReference" uid="2d98d6ca-5644-418a-9bae-94b5362d3c51"/>
-  </DEPS>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="" version="4">
   <OBJECT>
-    <ID name="" mc="MetaclassReference" uid="2d98d6ca-5644-418a-9bae-94b5362d3c51"/>
-    <PID name="Analyst" mc="Profile" uid="1be2e3fc-27ca-11e1-8d9c-002564c97630"/>
+    <ID name="" mc="Standard.MetaclassReference" uid="2d98d6ca-5644-418a-9bae-94b5362d3c51"/>
+    <PID name="Analyst" mc="Standard.Profile" uid="1be2e3fc-27ca-11e1-8d9c-002564c97630"/>
     <ATTRIBUTES>
       <ATT name="ReferencedClassName"><![CDATA[AnalystElement]]></ATT>
       <ATT name="status">1970354901745664</ATT>
@@ -13,11 +10,10 @@
     <DEPENDENCIES>
       <COMP relation="DefinedExternDocumentType">
         <OBJECT>
-          <ID name="business_rule" mc="ExternDocumentType" uid="9ede8a0a-2176-11e1-a46e-002564c97630"/>
-          <PID name="" mc="MetaclassReference" uid="2d98d6ca-5644-418a-9bae-94b5362d3c51"/>
+          <ID name="business_rule" mc="Standard.ExternDocumentType" uid="9ede8a0a-2176-11e1-a46e-002564c97630"/>
           <ATTRIBUTES>
             <ATT name="IsHidden">true</ATT>
-            <ATT name="LabelKey"><![CDATA[%business_rule]]></ATT>
+            <ATT name="LabelKey"><![CDATA[%externdocumenttype.business_rule.label]]></ATT>
             <ATT name="Icon"></ATT>
             <ATT name="Image"></ATT>
             <ATT name="Name"><![CDATA[business_rule]]></ATT>
@@ -26,11 +22,10 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="goal" mc="ExternDocumentType" uid="9f737ada-2176-11e1-a46e-002564c97630"/>
-          <PID name="" mc="MetaclassReference" uid="2d98d6ca-5644-418a-9bae-94b5362d3c51"/>
+          <ID name="goal" mc="Standard.ExternDocumentType" uid="9f737ada-2176-11e1-a46e-002564c97630"/>
           <ATTRIBUTES>
             <ATT name="IsHidden">true</ATT>
-            <ATT name="LabelKey"><![CDATA[%goal]]></ATT>
+            <ATT name="LabelKey"><![CDATA[%externdocumenttype.goal.label]]></ATT>
             <ATT name="Icon"></ATT>
             <ATT name="Image"></ATT>
             <ATT name="Name"><![CDATA[goal]]></ATT>
@@ -39,11 +34,10 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="term" mc="ExternDocumentType" uid="316a4eff-219e-11e1-b44e-002564c97630"/>
-          <PID name="" mc="MetaclassReference" uid="2d98d6ca-5644-418a-9bae-94b5362d3c51"/>
+          <ID name="term" mc="Standard.ExternDocumentType" uid="316a4eff-219e-11e1-b44e-002564c97630"/>
           <ATTRIBUTES>
             <ATT name="IsHidden">true</ATT>
-            <ATT name="LabelKey"><![CDATA[%term]]></ATT>
+            <ATT name="LabelKey"><![CDATA[%externdocumenttype.term.label]]></ATT>
             <ATT name="Icon"></ATT>
             <ATT name="Image"></ATT>
             <ATT name="Name"><![CDATA[term]]></ATT>
@@ -52,11 +46,10 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="requirement" mc="ExternDocumentType" uid="9f290272-2176-11e1-a46e-002564c97630"/>
-          <PID name="" mc="MetaclassReference" uid="2d98d6ca-5644-418a-9bae-94b5362d3c51"/>
+          <ID name="requirement" mc="Standard.ExternDocumentType" uid="9f290272-2176-11e1-a46e-002564c97630"/>
           <ATTRIBUTES>
             <ATT name="IsHidden">true</ATT>
-            <ATT name="LabelKey"><![CDATA[%requirement]]></ATT>
+            <ATT name="LabelKey"><![CDATA[%externdocumenttype.requirement.label]]></ATT>
             <ATT name="Icon"></ATT>
             <ATT name="Image"></ATT>
             <ATT name="Name"><![CDATA[requirement]]></ATT>
@@ -65,11 +58,10 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="generic_analyst" mc="ExternDocumentType" uid="489f9f73-e53a-45c4-a7bf-1445ad481c7b"/>
-          <PID name="" mc="MetaclassReference" uid="2d98d6ca-5644-418a-9bae-94b5362d3c51"/>
+          <ID name="generic_analyst" mc="Standard.ExternDocumentType" uid="489f9f73-e53a-45c4-a7bf-1445ad481c7b"/>
           <ATTRIBUTES>
             <ATT name="IsHidden">true</ATT>
-            <ATT name="LabelKey"><![CDATA[%generic_analyst]]></ATT>
+            <ATT name="LabelKey"><![CDATA[%externdocumenttype.generic_analyst.label]]></ATT>
             <ATT name="Icon"></ATT>
             <ATT name="Image"></ATT>
             <ATT name="Name"><![CDATA[generic_analyst]]></ATT>

@@ -1,11 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ConnectableElement_Parameter" version="3">
-  <DEPS>
-    <ID name="ConnectableElement_Parameter" mc="Stereotype" uid="01ec25d4-0000-1641-0000-000000000000"/>
-  </DEPS>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ConnectableElement_Parameter" version="4">
   <OBJECT>
-    <ID name="ConnectableElement_Parameter" mc="Stereotype" uid="01ec25d4-0000-1641-0000-000000000000"/>
-    <PID name="SoaML" mc="Profile" uid="01ec25d4-0000-15fb-0000-000000000000"/>
+    <ID name="ConnectableElement_Parameter" mc="Standard.Stereotype" uid="01ec25d4-0000-1641-0000-000000000000"/>
+    <PID name="SoaML" mc="Standard.Profile" uid="01ec25d4-0000-15fb-0000-000000000000"/>
     <ATTRIBUTES>
       <ATT name="Image"></ATT>
       <ATT name="Icon"></ATT>
@@ -18,8 +15,7 @@
     <DEPENDENCIES>
       <COMP relation="DefinedTagType">
         <OBJECT>
-          <ID name="connectorRequired" mc="TagType" uid="01ec25d4-0000-1653-0000-000000000000"/>
-          <PID name="ConnectableElement_Parameter" mc="Stereotype" uid="01ec25d4-0000-1641-0000-000000000000"/>
+          <ID name="connectorRequired" mc="Standard.TagType" uid="01ec25d4-0000-1653-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="ParamNumber"><![CDATA[0]]></ATT>
             <ATT name="IsQualified">false</ATT>
@@ -32,8 +28,7 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="isUsage" mc="TagType" uid="01ec25d4-0000-1662-0000-000000000000"/>
-          <PID name="ConnectableElement_Parameter" mc="Stereotype" uid="01ec25d4-0000-1641-0000-000000000000"/>
+          <ID name="isUsage" mc="Standard.TagType" uid="01ec25d4-0000-1662-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="ParamNumber"><![CDATA[0]]></ATT>
             <ATT name="IsQualified">false</ATT>

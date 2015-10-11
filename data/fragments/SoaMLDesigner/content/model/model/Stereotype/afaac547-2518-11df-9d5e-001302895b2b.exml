@@ -1,11 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Collaboration" version="3">
-  <DEPS>
-    <ID name="Collaboration" mc="Stereotype" uid="afaac547-2518-11df-9d5e-001302895b2b"/>
-  </DEPS>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Collaboration" version="4">
   <OBJECT>
-    <ID name="Collaboration" mc="Stereotype" uid="afaac547-2518-11df-9d5e-001302895b2b"/>
-    <PID name="SoaML" mc="Profile" uid="01ec25d4-0000-15fb-0000-000000000000"/>
+    <ID name="Collaboration" mc="Standard.Stereotype" uid="afaac547-2518-11df-9d5e-001302895b2b"/>
+    <PID name="SoaML" mc="Standard.Profile" uid="01ec25d4-0000-15fb-0000-000000000000"/>
     <ATTRIBUTES>
       <ATT name="Image"></ATT>
       <ATT name="Icon"></ATT>
@@ -18,8 +15,7 @@
     <DEPENDENCIES>
       <COMP relation="DefinedTagType">
         <OBJECT>
-          <ID name="isStrict" mc="TagType" uid="b3a27906-2518-11df-9d5e-001302895b2b"/>
-          <PID name="Collaboration" mc="Stereotype" uid="afaac547-2518-11df-9d5e-001302895b2b"/>
+          <ID name="isStrict" mc="Standard.TagType" uid="b3a27906-2518-11df-9d5e-001302895b2b"/>
           <ATTRIBUTES>
             <ATT name="ParamNumber"><![CDATA[0]]></ATT>
             <ATT name="IsQualified">false</ATT>

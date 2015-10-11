@@ -1,11 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Transformation" version="3">
-  <DEPS>
-    <ID name="Transformation" mc="Stereotype" uid="020802b4-0000-2f8c-0000-000000000000"/>
-  </DEPS>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Transformation" version="4">
   <OBJECT>
-    <ID name="Transformation" mc="Stereotype" uid="020802b4-0000-2f8c-0000-000000000000"/>
-    <PID name="Transformation" mc="Profile" uid="020802b4-0000-2f89-0000-000000000000"/>
+    <ID name="Transformation" mc="Standard.Stereotype" uid="020802b4-0000-2f8c-0000-000000000000"/>
+    <PID name="Transformation" mc="Standard.Profile" uid="020802b4-0000-2f89-0000-000000000000"/>
     <ATTRIBUTES>
       <ATT name="Image"></ATT>
       <ATT name="Icon"></ATT>

@@ -1,11 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="realizedEnd" version="3">
-  <DEPS>
-    <ID name="realizedEnd" mc="Stereotype" uid="01ec25d4-0000-17cd-0000-000000000000"/>
-  </DEPS>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="realizedEnd" version="4">
   <OBJECT>
-    <ID name="realizedEnd" mc="Stereotype" uid="01ec25d4-0000-17cd-0000-000000000000"/>
-    <PID name="BMM" mc="Profile" uid="01ec25d4-0000-17ca-0000-000000000000"/>
+    <ID name="realizedEnd" mc="Standard.Stereotype" uid="01ec25d4-0000-17cd-0000-000000000000"/>
+    <PID name="BMM" mc="Standard.Profile" uid="01ec25d4-0000-17ca-0000-000000000000"/>
     <ATTRIBUTES>
       <ATT name="Image"></ATT>
       <ATT name="Icon"></ATT>

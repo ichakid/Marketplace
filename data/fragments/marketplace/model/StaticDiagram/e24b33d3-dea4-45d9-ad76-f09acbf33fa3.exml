@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Service Contract diagram" version="4">
+  <OBJECT>
+    <ID name="Service Contract diagram" mc="Standard.StaticDiagram" uid="e24b33d3-dea4-45d9-ad76-f09acbf33fa3"/>
+    <PID name="Package" mc="Standard.Package" uid="c98303d9-10a4-46e9-9dc4-2738d3b26ab9"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">25</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[Service Contract diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="ServiceContractDiagram" mc="Standard.Stereotype" uid="0208014c-0000-3501-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Standard.Note" uid="8e2b0db5-2997-4c5f-9af4-6ef3e3319eac"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[The Service Contract diagram is dedicated to service contract modeling.]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Standard.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

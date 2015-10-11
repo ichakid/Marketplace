@@ -1,11 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="" version="3">
-  <DEPS>
-    <ID name="" mc="MetaclassReference" uid="01ec24fc-0000-000f-0000-000000000000"/>
-  </DEPS>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="" version="4">
   <OBJECT>
-    <ID name="" mc="MetaclassReference" uid="01ec24fc-0000-000f-0000-000000000000"/>
-    <PID name="JavaCompatibility" mc="Profile" uid="01ec24fc-0000-0208-0000-000000000000"/>
+    <ID name="" mc="Standard.MetaclassReference" uid="01ec24fc-0000-000f-0000-000000000000"/>
+    <PID name="JavaCompatibility" mc="Standard.Profile" uid="01ec24fc-0000-0208-0000-000000000000"/>
     <ATTRIBUTES>
       <ATT name="ReferencedClassName"><![CDATA[Interface]]></ATT>
       <ATT name="status">1970354901745664</ATT>
@@ -13,24 +10,22 @@
     <DEPENDENCIES>
       <COMP relation="DefinedNoteType">
         <OBJECT>
-          <ID name="JavaImport" mc="NoteType" uid="258012b4-0000-03e7-0000-000000000000"/>
-          <PID name="" mc="MetaclassReference" uid="01ec24fc-0000-000f-0000-000000000000"/>
+          <ID name="JavaImport" mc="Standard.NoteType" uid="258012b4-0000-03e7-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="IsHidden">true</ATT>
             <ATT name="LabelKey"></ATT>
-            <ATT name="MimeType"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"><![CDATA[JavaImport]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="JavaCode" mc="NoteType" uid="258012b4-0000-03ce-0000-000000000000"/>
-          <PID name="" mc="MetaclassReference" uid="01ec24fc-0000-000f-0000-000000000000"/>
+          <ID name="JavaCode" mc="Standard.NoteType" uid="258012b4-0000-03ce-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="IsHidden">true</ATT>
             <ATT name="LabelKey"><![CDATA[Code]]></ATT>
-            <ATT name="MimeType"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"><![CDATA[JavaCode]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
@@ -39,8 +34,7 @@
       </COMP>
       <COMP relation="DefinedTagType">
         <OBJECT>
-          <ID name="JavaBeanResource" mc="TagType" uid="258012b4-0000-0405-0000-000000000000"/>
-          <PID name="" mc="MetaclassReference" uid="01ec24fc-0000-000f-0000-000000000000"/>
+          <ID name="JavaBeanResource" mc="Standard.TagType" uid="258012b4-0000-0405-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="ParamNumber"><![CDATA[1]]></ATT>
             <ATT name="IsQualified">false</ATT>
@@ -53,8 +47,7 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="JavaDocumentedAnnotation" mc="TagType" uid="258012b4-0000-0437-0000-000000000000"/>
-          <PID name="" mc="MetaclassReference" uid="01ec24fc-0000-000f-0000-000000000000"/>
+          <ID name="JavaDocumentedAnnotation" mc="Standard.TagType" uid="258012b4-0000-0437-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="ParamNumber"><![CDATA[0]]></ATT>
             <ATT name="IsQualified">false</ATT>
@@ -67,8 +60,7 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="JavaInheritedAnnotation" mc="TagType" uid="258012b4-0000-0414-0000-000000000000"/>
-          <PID name="" mc="MetaclassReference" uid="01ec24fc-0000-000f-0000-000000000000"/>
+          <ID name="JavaInheritedAnnotation" mc="Standard.TagType" uid="258012b4-0000-0414-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="ParamNumber"><![CDATA[0]]></ATT>
             <ATT name="IsQualified">false</ATT>
@@ -81,8 +73,7 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="JavaNoAccessor" mc="TagType" uid="258012b4-0000-0400-0000-000000000000"/>
-          <PID name="" mc="MetaclassReference" uid="01ec24fc-0000-000f-0000-000000000000"/>
+          <ID name="JavaNoAccessor" mc="Standard.TagType" uid="258012b4-0000-0400-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="ParamNumber"><![CDATA[0]]></ATT>
             <ATT name="IsQualified">false</ATT>
@@ -95,8 +86,7 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="JavaNoImport" mc="TagType" uid="258012b4-0000-041e-0000-000000000000"/>
-          <PID name="" mc="MetaclassReference" uid="01ec24fc-0000-000f-0000-000000000000"/>
+          <ID name="JavaNoImport" mc="Standard.TagType" uid="258012b4-0000-041e-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="ParamNumber"><![CDATA[0]]></ATT>
             <ATT name="IsQualified">false</ATT>
@@ -109,8 +99,7 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="JavaNonPublic" mc="TagType" uid="258012b4-0000-03fb-0000-000000000000"/>
-          <PID name="" mc="MetaclassReference" uid="01ec24fc-0000-000f-0000-000000000000"/>
+          <ID name="JavaNonPublic" mc="Standard.TagType" uid="258012b4-0000-03fb-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="ParamNumber"><![CDATA[0]]></ATT>
             <ATT name="IsQualified">false</ATT>
@@ -123,8 +112,7 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="JavaRetentionAnnotation" mc="TagType" uid="258012b4-0000-0432-0000-000000000000"/>
-          <PID name="" mc="MetaclassReference" uid="01ec24fc-0000-000f-0000-000000000000"/>
+          <ID name="JavaRetentionAnnotation" mc="Standard.TagType" uid="258012b4-0000-0432-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="ParamNumber"><![CDATA[1]]></ATT>
             <ATT name="IsQualified">false</ATT>
@@ -137,8 +125,7 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="JavaTargetAnnotation" mc="TagType" uid="258012b4-0000-042d-0000-000000000000"/>
-          <PID name="" mc="MetaclassReference" uid="01ec24fc-0000-000f-0000-000000000000"/>
+          <ID name="JavaTargetAnnotation" mc="Standard.TagType" uid="258012b4-0000-042d-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="ParamNumber"><![CDATA[*]]></ATT>
             <ATT name="IsQualified">false</ATT>
@@ -151,8 +138,7 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="JavaImplements" mc="TagType" uid="258012b4-0000-040f-0000-000000000000"/>
-          <PID name="" mc="MetaclassReference" uid="01ec24fc-0000-000f-0000-000000000000"/>
+          <ID name="JavaImplements" mc="Standard.TagType" uid="258012b4-0000-040f-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="ParamNumber"><![CDATA[*]]></ATT>
             <ATT name="IsQualified">false</ATT>
@@ -165,8 +151,7 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="JavaBean" mc="TagType" uid="258012b4-0000-03f1-0000-000000000000"/>
-          <PID name="" mc="MetaclassReference" uid="01ec24fc-0000-000f-0000-000000000000"/>
+          <ID name="JavaBean" mc="Standard.TagType" uid="258012b4-0000-03f1-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="ParamNumber"><![CDATA[0]]></ATT>
             <ATT name="IsQualified">false</ATT>
@@ -179,8 +164,7 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="JavaFileName" mc="TagType" uid="258012b4-0000-043c-0000-000000000000"/>
-          <PID name="" mc="MetaclassReference" uid="01ec24fc-0000-000f-0000-000000000000"/>
+          <ID name="JavaFileName" mc="Standard.TagType" uid="258012b4-0000-043c-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="ParamNumber"><![CDATA[1]]></ATT>
             <ATT name="IsQualified">false</ATT>

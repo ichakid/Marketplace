@@ -1,13 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Transformation" version="3">
-  <DEPS>
-    <ID name="Transformation" mc="Profile" uid="020802b4-0000-2f89-0000-000000000000"/>
-    <COMPID name="" mc="MetaclassReference" uid="020802b4-0000-2f8a-0000-000000000000"/>
-    <COMPID name="Transformation" mc="Stereotype" uid="020802b4-0000-2f8c-0000-000000000000"/>
-  </DEPS>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Transformation" version="4">
   <OBJECT>
-    <ID name="Transformation" mc="Profile" uid="020802b4-0000-2f89-0000-000000000000"/>
-    <PID name="SoaMLDesigner" mc="ModuleComponent" uid="4671fd99-8848-11df-a5a6-0014224f9977"/>
+    <ID name="Transformation" mc="Standard.Profile" uid="020802b4-0000-2f89-0000-000000000000"/>
+    <PID name="SoaMLDesigner" mc="Standard.ModuleComponent" uid="4671fd99-8848-11df-a5a6-0014224f9977"/>
     <ATTRIBUTES>
       <ATT name="JCode"></ATT>
       <ATT name="IsInstantiable">false</ATT>
@@ -20,10 +15,10 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="DefinedStereotype">
-        <COMPID name="Transformation" mc="Stereotype" uid="020802b4-0000-2f8c-0000-000000000000"/>
+        <COMPID name="Transformation" mc="Standard.Stereotype" uid="020802b4-0000-2f8c-0000-000000000000"/>
       </COMP>
       <COMP relation="OwnedReference">
-        <COMPID name="" mc="MetaclassReference" uid="020802b4-0000-2f8a-0000-000000000000"/>
+        <COMPID name="" mc="Standard.MetaclassReference" uid="020802b4-0000-2f8a-0000-000000000000"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

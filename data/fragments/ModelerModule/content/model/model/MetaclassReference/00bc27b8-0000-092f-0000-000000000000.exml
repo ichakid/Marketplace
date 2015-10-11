@@ -1,11 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="" version="3">
-  <DEPS>
-    <ID name="" mc="MetaclassReference" uid="00bc27b8-0000-092f-0000-000000000000"/>
-  </DEPS>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="" version="4">
   <OBJECT>
-    <ID name="" mc="MetaclassReference" uid="00bc27b8-0000-092f-0000-000000000000"/>
-    <PID name="default" mc="Profile" uid="007004e8-0000-0282-0000-000000000000"/>
+    <ID name="" mc="Standard.MetaclassReference" uid="00bc27b8-0000-092f-0000-000000000000"/>
+    <PID name="default" mc="Standard.Profile" uid="007004e8-0000-0282-0000-000000000000"/>
     <ATTRIBUTES>
       <ATT name="ReferencedClassName"><![CDATA[ModelTree]]></ATT>
       <ATT name="status">1970354901745664</ATT>
@@ -13,12 +10,11 @@
     <DEPENDENCIES>
       <COMP relation="DefinedNoteType">
         <OBJECT>
-          <ID name="summary" mc="NoteType" uid="00000000-0000-3e84-0000-000000000000"/>
-          <PID name="" mc="MetaclassReference" uid="00bc27b8-0000-092f-0000-000000000000"/>
+          <ID name="summary" mc="Standard.NoteType" uid="00000000-0000-3e84-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="IsHidden">false</ATT>
-            <ATT name="LabelKey"><![CDATA[%summary]]></ATT>
-            <ATT name="MimeType"></ATT>
+            <ATT name="LabelKey"><![CDATA[%notetype.summary.label]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"><![CDATA[summary]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
@@ -27,11 +23,10 @@
       </COMP>
       <COMP relation="DefinedExternDocumentType">
         <OBJECT>
-          <ID name="specification" mc="ExternDocumentType" uid="06972e98-2177-11e1-a46e-002564c97630"/>
-          <PID name="" mc="MetaclassReference" uid="00bc27b8-0000-092f-0000-000000000000"/>
+          <ID name="specification" mc="Standard.ExternDocumentType" uid="06972e98-2177-11e1-a46e-002564c97630"/>
           <ATTRIBUTES>
             <ATT name="IsHidden">false</ATT>
-            <ATT name="LabelKey"><![CDATA[%specification]]></ATT>
+            <ATT name="LabelKey"><![CDATA[%externdocumenttype.specification.label]]></ATT>
             <ATT name="Icon"></ATT>
             <ATT name="Image"></ATT>
             <ATT name="Name"><![CDATA[specification]]></ATT>
@@ -40,11 +35,10 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="design" mc="ExternDocumentType" uid="06da53d0-2177-11e1-a46e-002564c97630"/>
-          <PID name="" mc="MetaclassReference" uid="00bc27b8-0000-092f-0000-000000000000"/>
+          <ID name="design" mc="Standard.ExternDocumentType" uid="06da53d0-2177-11e1-a46e-002564c97630"/>
           <ATTRIBUTES>
             <ATT name="IsHidden">false</ATT>
-            <ATT name="LabelKey"><![CDATA[%design]]></ATT>
+            <ATT name="LabelKey"><![CDATA[%externdocumenttype.design.label]]></ATT>
             <ATT name="Icon"></ATT>
             <ATT name="Image"></ATT>
             <ATT name="Name"><![CDATA[design]]></ATT>
@@ -53,14 +47,28 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="analysis" mc="ExternDocumentType" uid="86f09380-2bd8-11e1-8cff-002564c97630"/>
-          <PID name="" mc="MetaclassReference" uid="00bc27b8-0000-092f-0000-000000000000"/>
+          <ID name="analysis" mc="Standard.ExternDocumentType" uid="86f09380-2bd8-11e1-8cff-002564c97630"/>
           <ATTRIBUTES>
             <ATT name="IsHidden">false</ATT>
-            <ATT name="LabelKey"><![CDATA[%analysis]]></ATT>
+            <ATT name="LabelKey"><![CDATA[%externdocumenttype.analysis.label]]></ATT>
             <ATT name="Icon"></ATT>
             <ATT name="Image"></ATT>
             <ATT name="Name"><![CDATA[analysis]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="userDiagramImage" mc="Standard.TagType" uid="706d4a6a-3306-46c4-9ce8-af23457cc2ef"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[%tagtype.userDiagramImage.label]]></ATT>
+            <ATT name="Name"><![CDATA[userDiagramImage]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES></DEPENDENCIES>

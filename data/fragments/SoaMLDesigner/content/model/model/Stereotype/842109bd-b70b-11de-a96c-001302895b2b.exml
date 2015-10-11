@@ -1,11 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ValueObject_DataType" version="3">
-  <DEPS>
-    <ID name="ValueObject_DataType" mc="Stereotype" uid="842109bd-b70b-11de-a96c-001302895b2b"/>
-  </DEPS>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ValueObject_DataType" version="4">
   <OBJECT>
-    <ID name="ValueObject_DataType" mc="Stereotype" uid="842109bd-b70b-11de-a96c-001302895b2b"/>
-    <PID name="SoaML" mc="Profile" uid="01ec25d4-0000-15fb-0000-000000000000"/>
+    <ID name="ValueObject_DataType" mc="Standard.Stereotype" uid="842109bd-b70b-11de-a96c-001302895b2b"/>
+    <PID name="SoaML" mc="Standard.Profile" uid="01ec25d4-0000-15fb-0000-000000000000"/>
     <ATTRIBUTES>
       <ATT name="Image"></ATT>
       <ATT name="Icon"></ATT>

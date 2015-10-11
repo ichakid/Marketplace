@@ -1,11 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="" version="3">
-  <DEPS>
-    <ID name="" mc="MetaclassReference" uid="01ec24fc-0000-0009-0000-000000000000"/>
-  </DEPS>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="" version="4">
   <OBJECT>
-    <ID name="" mc="MetaclassReference" uid="01ec24fc-0000-0009-0000-000000000000"/>
-    <PID name="JavaCompatibility" mc="Profile" uid="01ec24fc-0000-0208-0000-000000000000"/>
+    <ID name="" mc="Standard.MetaclassReference" uid="01ec24fc-0000-0009-0000-000000000000"/>
+    <PID name="JavaCompatibility" mc="Standard.Profile" uid="01ec24fc-0000-0208-0000-000000000000"/>
     <ATTRIBUTES>
       <ATT name="ReferencedClassName"><![CDATA[AssociationEnd]]></ATT>
       <ATT name="status">1970354901745664</ATT>
@@ -13,8 +10,7 @@
     <DEPENDENCIES>
       <COMP relation="DefinedTagType">
         <OBJECT>
-          <ID name="JavaFilterAccessor" mc="TagType" uid="003800a8-0000-018a-0000-000000000000"/>
-          <PID name="" mc="MetaclassReference" uid="01ec24fc-0000-0009-0000-000000000000"/>
+          <ID name="JavaFilterAccessor" mc="Standard.TagType" uid="003800a8-0000-018a-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="ParamNumber"><![CDATA[*]]></ATT>
             <ATT name="IsQualified">false</ATT>
@@ -27,8 +23,7 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="JavaGenerateAccessor" mc="TagType" uid="003800a8-0000-0189-0000-000000000000"/>
-          <PID name="" mc="MetaclassReference" uid="01ec24fc-0000-0009-0000-000000000000"/>
+          <ID name="JavaGenerateAccessor" mc="Standard.TagType" uid="003800a8-0000-0189-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="ParamNumber"><![CDATA[*]]></ATT>
             <ATT name="IsQualified">false</ATT>
@@ -41,8 +36,7 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="JavaNoAccessor" mc="TagType" uid="003800a8-0000-018b-0000-000000000000"/>
-          <PID name="" mc="MetaclassReference" uid="01ec24fc-0000-0009-0000-000000000000"/>
+          <ID name="JavaNoAccessor" mc="Standard.TagType" uid="003800a8-0000-018b-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="ParamNumber"><![CDATA[0]]></ATT>
             <ATT name="IsQualified">false</ATT>
@@ -55,8 +49,7 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="JavaPublic" mc="TagType" uid="007c081c-0000-272c-0000-000000000000"/>
-          <PID name="" mc="MetaclassReference" uid="01ec24fc-0000-0009-0000-000000000000"/>
+          <ID name="JavaPublic" mc="Standard.TagType" uid="007c081c-0000-272c-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="ParamNumber"><![CDATA[0]]></ATT>
             <ATT name="IsQualified">false</ATT>

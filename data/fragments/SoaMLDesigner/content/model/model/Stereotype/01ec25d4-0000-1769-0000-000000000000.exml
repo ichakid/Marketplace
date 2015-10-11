@@ -1,11 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UMLProperty" version="3">
-  <DEPS>
-    <ID name="UMLProperty" mc="Stereotype" uid="01ec25d4-0000-1769-0000-000000000000"/>
-  </DEPS>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UMLProperty" version="4">
   <OBJECT>
-    <ID name="UMLProperty" mc="Stereotype" uid="01ec25d4-0000-1769-0000-000000000000"/>
-    <PID name="UML" mc="Profile" uid="01ec25d4-0000-1766-0000-000000000000"/>
+    <ID name="UMLProperty" mc="Standard.Stereotype" uid="01ec25d4-0000-1769-0000-000000000000"/>
+    <PID name="UML" mc="Standard.Profile" uid="01ec25d4-0000-1766-0000-000000000000"/>
     <ATTRIBUTES>
       <ATT name="Image"></ATT>
       <ATT name="Icon"></ATT>

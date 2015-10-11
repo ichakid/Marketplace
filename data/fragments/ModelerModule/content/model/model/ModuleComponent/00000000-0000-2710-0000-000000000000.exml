@@ -1,19 +1,12 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ModelerModule" version="3">
-  <DEPS>
-    <ID name="ModelerModule" mc="ModuleComponent" uid="00000000-0000-2710-0000-000000000000"/>
-    <COMPID name="Analyst" mc="Profile" uid="1be2e3fc-27ca-11e1-8d9c-002564c97630"/>
-    <COMPID name="Code" mc="Profile" uid="00300000-0000-0032-0000-000000000000"/>
-    <COMPID name="XMI" mc="Profile" uid="01ec045c-0000-3739-0000-000000000000"/>
-    <COMPID name="default" mc="Profile" uid="007004e8-0000-0282-0000-000000000000"/>
-  </DEPS>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ModelerModule" version="4">
   <OBJECT>
-    <ID name="ModelerModule" mc="ModuleComponent" uid="00000000-0000-2710-0000-000000000000"/>
+    <ID name="ModelerModule" mc="Standard.ModuleComponent" uid="00000000-0000-2710-0000-000000000000"/>
     <ATTRIBUTES>
       <ATT name="LicenseKey">0</ATT>
       <ATT name="MajVersion">8</ATT>
-      <ATT name="MinVersion">3</ATT>
-      <ATT name="MinMinVersion"><![CDATA[0.9022]]></ATT>
+      <ATT name="MinVersion">5</ATT>
+      <ATT name="MinMinVersion"><![CDATA[12]]></ATT>
       <ATT name="MinBinVersionCompatibility"></ATT>
       <ATT name="JavaClassName"><![CDATA[org.modelio.module.modelermodule.impl.ModelerModuleModule]]></ATT>
       <ATT name="State">SoModuleStateActivated</ATT>
@@ -29,10 +22,11 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedProfile">
-        <COMPID name="Code" mc="Profile" uid="00300000-0000-0032-0000-000000000000"/>
-        <COMPID name="default" mc="Profile" uid="007004e8-0000-0282-0000-000000000000"/>
-        <COMPID name="Analyst" mc="Profile" uid="1be2e3fc-27ca-11e1-8d9c-002564c97630"/>
-        <COMPID name="XMI" mc="Profile" uid="01ec045c-0000-3739-0000-000000000000"/>
+        <COMPID name="XMI" mc="Standard.Profile" uid="01ec045c-0000-3739-0000-000000000000"/>
+        <COMPID name="Analyst" mc="Standard.Profile" uid="1be2e3fc-27ca-11e1-8d9c-002564c97630"/>
+        <COMPID name="TemplateProfile" mc="Standard.Profile" uid="d7ea54fa-8913-11df-8dda-0014224f9977"/>
+        <COMPID name="default" mc="Standard.Profile" uid="007004e8-0000-0282-0000-000000000000"/>
+        <COMPID name="Code" mc="Standard.Profile" uid="00300000-0000-0032-0000-000000000000"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

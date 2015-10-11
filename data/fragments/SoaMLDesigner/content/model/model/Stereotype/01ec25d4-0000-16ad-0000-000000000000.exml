@@ -1,11 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Property_Attribute" version="3">
-  <DEPS>
-    <ID name="Property_Attribute" mc="Stereotype" uid="01ec25d4-0000-16ad-0000-000000000000"/>
-  </DEPS>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Property_Attribute" version="4">
   <OBJECT>
-    <ID name="Property_Attribute" mc="Stereotype" uid="01ec25d4-0000-16ad-0000-000000000000"/>
-    <PID name="SoaML" mc="Profile" uid="01ec25d4-0000-15fb-0000-000000000000"/>
+    <ID name="Property_Attribute" mc="Standard.Stereotype" uid="01ec25d4-0000-16ad-0000-000000000000"/>
+    <PID name="SoaML" mc="Standard.Profile" uid="01ec25d4-0000-15fb-0000-000000000000"/>
     <ATTRIBUTES>
       <ATT name="Image"></ATT>
       <ATT name="Icon"></ATT>
@@ -18,8 +15,7 @@
     <DEPENDENCIES>
       <COMP relation="DefinedTagType">
         <OBJECT>
-          <ID name="isID" mc="TagType" uid="01ec25d4-0000-16ba-0000-000000000000"/>
-          <PID name="Property_Attribute" mc="Stereotype" uid="01ec25d4-0000-16ad-0000-000000000000"/>
+          <ID name="isID" mc="Standard.TagType" uid="01ec25d4-0000-16ba-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="ParamNumber"><![CDATA[0]]></ATT>
             <ATT name="IsQualified">false</ATT>

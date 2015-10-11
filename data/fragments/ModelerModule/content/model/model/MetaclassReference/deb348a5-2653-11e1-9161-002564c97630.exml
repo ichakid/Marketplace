@@ -1,11 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="" version="3">
-  <DEPS>
-    <ID name="" mc="MetaclassReference" uid="deb348a5-2653-11e1-9161-002564c97630"/>
-  </DEPS>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="" version="4">
   <OBJECT>
-    <ID name="" mc="MetaclassReference" uid="deb348a5-2653-11e1-9161-002564c97630"/>
-    <PID name="default" mc="Profile" uid="007004e8-0000-0282-0000-000000000000"/>
+    <ID name="" mc="Standard.MetaclassReference" uid="deb348a5-2653-11e1-9161-002564c97630"/>
+    <PID name="default" mc="Standard.Profile" uid="007004e8-0000-0282-0000-000000000000"/>
     <ATTRIBUTES>
       <ATT name="ReferencedClassName"><![CDATA[Operation]]></ATT>
       <ATT name="status">1970354901745664</ATT>
@@ -13,12 +10,11 @@
     <DEPENDENCIES>
       <COMP relation="DefinedNoteType">
         <OBJECT>
-          <ID name="summary" mc="NoteType" uid="00540400-0000-011f-0000-000000000000"/>
-          <PID name="" mc="MetaclassReference" uid="deb348a5-2653-11e1-9161-002564c97630"/>
+          <ID name="summary" mc="Standard.NoteType" uid="00540400-0000-011f-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="IsHidden">false</ATT>
-            <ATT name="LabelKey"><![CDATA[%summary]]></ATT>
-            <ATT name="MimeType"></ATT>
+            <ATT name="LabelKey"><![CDATA[%notetype.summary.label]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"><![CDATA[summary]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>

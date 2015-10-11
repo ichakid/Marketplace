@@ -1,14 +1,11 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CapabilityDiagram" version="3">
-  <DEPS>
-    <ID name="CapabilityDiagram" mc="Stereotype" uid="0208014c-0000-350c-0000-000000000000"/>
-  </DEPS>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CapabilityDiagram" version="4">
   <OBJECT>
-    <ID name="CapabilityDiagram" mc="Stereotype" uid="0208014c-0000-350c-0000-000000000000"/>
-    <PID name="Diagrams" mc="Profile" uid="0208014c-0000-34f4-0000-000000000000"/>
+    <ID name="CapabilityDiagram" mc="Standard.Stereotype" uid="0208014c-0000-350c-0000-000000000000"/>
+    <PID name="Diagrams" mc="Standard.Profile" uid="0208014c-0000-34f4-0000-000000000000"/>
     <ATTRIBUTES>
-      <ATT name="Image"><![CDATA[SoaMLDesigner/res/bmp/capabilityDiagram.png]]></ATT>
-      <ATT name="Icon"><![CDATA[SoaMLDesigner/res/bmp/capabilityDiagram.png]]></ATT>
+      <ATT name="Image"><![CDATA[res/bmp/capabilitydiagram.png]]></ATT>
+      <ATT name="Icon"><![CDATA[res/bmp/capabilitydiagram.png]]></ATT>
       <ATT name="IsHidden">false</ATT>
       <ATT name="LabelKey"><![CDATA[Capability Diagram]]></ATT>
       <ATT name="BaseClassName"><![CDATA[StaticDiagram]]></ATT>

@@ -1,11 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="" version="3">
-  <DEPS>
-    <ID name="" mc="MetaclassReference" uid="258010dc-0000-0575-0000-000000000000"/>
-  </DEPS>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="" version="4">
   <OBJECT>
-    <ID name="" mc="MetaclassReference" uid="258010dc-0000-0575-0000-000000000000"/>
-    <PID name="JavaExtensions" mc="Profile" uid="25801104-0000-1069-0000-000000000000"/>
+    <ID name="" mc="Standard.MetaclassReference" uid="258010dc-0000-0575-0000-000000000000"/>
+    <PID name="JavaExtensions" mc="Standard.Profile" uid="25801104-0000-1069-0000-000000000000"/>
     <ATTRIBUTES>
       <ATT name="ReferencedClassName"><![CDATA[Parameter]]></ATT>
       <ATT name="status">1970354901745664</ATT>
@@ -13,24 +10,22 @@
     <DEPENDENCIES>
       <COMP relation="DefinedNoteType">
         <OBJECT>
-          <ID name="JavaAnnotation" mc="NoteType" uid="000c0b48-0000-3ab0-0000-000000000000"/>
-          <PID name="" mc="MetaclassReference" uid="258010dc-0000-0575-0000-000000000000"/>
+          <ID name="JavaAnnotation" mc="Standard.NoteType" uid="000c0b48-0000-3ab0-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="IsHidden">false</ATT>
             <ATT name="LabelKey"><![CDATA[Annotations]]></ATT>
-            <ATT name="MimeType"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"><![CDATA[JavaAnnotation]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="Javadoc" mc="NoteType" uid="01240268-0000-0044-0000-000000000000"/>
-          <PID name="" mc="MetaclassReference" uid="258010dc-0000-0575-0000-000000000000"/>
+          <ID name="Javadoc" mc="Standard.NoteType" uid="01240268-0000-0044-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="IsHidden">false</ATT>
             <ATT name="LabelKey"><![CDATA[Javadoc]]></ATT>
-            <ATT name="MimeType"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
             <ATT name="Name"><![CDATA[Javadoc]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
@@ -39,8 +34,7 @@
       </COMP>
       <COMP relation="DefinedTagType">
         <OBJECT>
-          <ID name="JavaArrayDimension" mc="TagType" uid="eb8c1900-000f-68b9-0000-000000000000"/>
-          <PID name="" mc="MetaclassReference" uid="258010dc-0000-0575-0000-000000000000"/>
+          <ID name="JavaArrayDimension" mc="Standard.TagType" uid="eb8c1900-000f-68b9-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="ParamNumber"><![CDATA[1]]></ATT>
             <ATT name="IsQualified">false</ATT>
@@ -53,8 +47,7 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="JavaBind" mc="TagType" uid="000c0b48-0000-3970-0000-000000000000"/>
-          <PID name="" mc="MetaclassReference" uid="258010dc-0000-0575-0000-000000000000"/>
+          <ID name="JavaBind" mc="Standard.TagType" uid="000c0b48-0000-3970-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="ParamNumber"><![CDATA[*]]></ATT>
             <ATT name="IsQualified">false</ATT>
@@ -67,8 +60,7 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="JavaFinal" mc="TagType" uid="eb8c1900-000a-b31d-0000-000000000000"/>
-          <PID name="" mc="MetaclassReference" uid="258010dc-0000-0575-0000-000000000000"/>
+          <ID name="JavaFinal" mc="Standard.TagType" uid="eb8c1900-000a-b31d-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="ParamNumber"><![CDATA[0]]></ATT>
             <ATT name="IsQualified">false</ATT>
@@ -81,8 +73,7 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="JavaFullName" mc="TagType" uid="01241558-0000-18e7-0000-000000000000"/>
-          <PID name="" mc="MetaclassReference" uid="258010dc-0000-0575-0000-000000000000"/>
+          <ID name="JavaFullName" mc="Standard.TagType" uid="01241558-0000-18e7-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="ParamNumber"><![CDATA[0]]></ATT>
             <ATT name="IsQualified">false</ATT>
@@ -95,8 +86,7 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="JavaTypeExpr" mc="TagType" uid="00380080-0000-01a4-0000-000000000000"/>
-          <PID name="" mc="MetaclassReference" uid="258010dc-0000-0575-0000-000000000000"/>
+          <ID name="JavaTypeExpr" mc="Standard.TagType" uid="00380080-0000-01a4-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="ParamNumber"><![CDATA[1]]></ATT>
             <ATT name="IsQualified">false</ATT>
@@ -109,8 +99,7 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="JavaVarArgs" mc="TagType" uid="000c0b48-0000-3abe-0000-000000000000"/>
-          <PID name="" mc="MetaclassReference" uid="258010dc-0000-0575-0000-000000000000"/>
+          <ID name="JavaVarArgs" mc="Standard.TagType" uid="000c0b48-0000-3abe-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="ParamNumber"><![CDATA[0]]></ATT>
             <ATT name="IsQualified">false</ATT>
@@ -123,8 +112,7 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="JavaWrapper" mc="TagType" uid="007c081c-0000-272a-0000-000000000000"/>
-          <PID name="" mc="MetaclassReference" uid="258010dc-0000-0575-0000-000000000000"/>
+          <ID name="JavaWrapper" mc="Standard.TagType" uid="007c081c-0000-272a-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="ParamNumber"><![CDATA[0]]></ATT>
             <ATT name="IsQualified">false</ATT>

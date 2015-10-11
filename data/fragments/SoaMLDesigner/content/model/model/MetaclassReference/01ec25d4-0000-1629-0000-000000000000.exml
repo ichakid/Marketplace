@@ -1,11 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="" version="3">
-  <DEPS>
-    <ID name="" mc="MetaclassReference" uid="01ec25d4-0000-1629-0000-000000000000"/>
-  </DEPS>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="" version="4">
   <OBJECT>
-    <ID name="" mc="MetaclassReference" uid="01ec25d4-0000-1629-0000-000000000000"/>
-    <PID name="SoaML" mc="Profile" uid="01ec25d4-0000-15fb-0000-000000000000"/>
+    <ID name="" mc="Standard.MetaclassReference" uid="01ec25d4-0000-1629-0000-000000000000"/>
+    <PID name="SoaML" mc="Standard.Profile" uid="01ec25d4-0000-15fb-0000-000000000000"/>
     <ATTRIBUTES>
       <ATT name="ReferencedClassName"><![CDATA[Collaboration]]></ATT>
       <ATT name="status">1970354901745664</ATT>
@@ -13,8 +10,7 @@
     <DEPENDENCIES>
       <COMP relation="DefinedTagType">
         <OBJECT>
-          <ID name="isStrict" mc="TagType" uid="01ec25d4-0000-1633-0000-000000000000"/>
-          <PID name="" mc="MetaclassReference" uid="01ec25d4-0000-1629-0000-000000000000"/>
+          <ID name="isStrict" mc="Standard.TagType" uid="01ec25d4-0000-1633-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="ParamNumber"><![CDATA[0]]></ATT>
             <ATT name="IsQualified">false</ATT>

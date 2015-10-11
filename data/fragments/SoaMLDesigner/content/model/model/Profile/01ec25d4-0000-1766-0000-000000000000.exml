@@ -1,17 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UML" version="3">
-  <DEPS>
-    <ID name="UML" mc="Profile" uid="01ec25d4-0000-1766-0000-000000000000"/>
-    <COMPID name="" mc="MetaclassReference" uid="e561f99b-b354-11de-aba4-001302895b2b"/>
-    <COMPID name="" mc="MetaclassReference" uid="01ec25d4-0000-1767-0000-000000000000"/>
-    <COMPID name="" mc="MetaclassReference" uid="01ec25d4-0000-176d-0000-000000000000"/>
-    <COMPID name="UMLProperty" mc="Stereotype" uid="01ec25d4-0000-1769-0000-000000000000"/>
-    <COMPID name="UMLProperty" mc="Stereotype" uid="01ec25d4-0000-176f-0000-000000000000"/>
-    <COMPID name="signal" mc="Stereotype" uid="01ec25d4-0000-16e8-0000-000000000000"/>
-  </DEPS>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UML" version="4">
   <OBJECT>
-    <ID name="UML" mc="Profile" uid="01ec25d4-0000-1766-0000-000000000000"/>
-    <PID name="SoaMLDesigner" mc="ModuleComponent" uid="4671fd99-8848-11df-a5a6-0014224f9977"/>
+    <ID name="UML" mc="Standard.Profile" uid="01ec25d4-0000-1766-0000-000000000000"/>
+    <PID name="SoaMLDesigner" mc="Standard.ModuleComponent" uid="4671fd99-8848-11df-a5a6-0014224f9977"/>
     <ATTRIBUTES>
       <ATT name="JCode"></ATT>
       <ATT name="IsInstantiable">false</ATT>
@@ -24,14 +15,14 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="DefinedStereotype">
-        <COMPID name="UMLProperty" mc="Stereotype" uid="01ec25d4-0000-1769-0000-000000000000"/>
-        <COMPID name="UMLProperty" mc="Stereotype" uid="01ec25d4-0000-176f-0000-000000000000"/>
-        <COMPID name="signal" mc="Stereotype" uid="01ec25d4-0000-16e8-0000-000000000000"/>
+        <COMPID name="UMLProperty" mc="Standard.Stereotype" uid="01ec25d4-0000-1769-0000-000000000000"/>
+        <COMPID name="UMLProperty" mc="Standard.Stereotype" uid="01ec25d4-0000-176f-0000-000000000000"/>
+        <COMPID name="signal" mc="Standard.Stereotype" uid="01ec25d4-0000-16e8-0000-000000000000"/>
       </COMP>
       <COMP relation="OwnedReference">
-        <COMPID name="" mc="MetaclassReference" uid="01ec25d4-0000-1767-0000-000000000000"/>
-        <COMPID name="" mc="MetaclassReference" uid="01ec25d4-0000-176d-0000-000000000000"/>
-        <COMPID name="" mc="MetaclassReference" uid="e561f99b-b354-11de-aba4-001302895b2b"/>
+        <COMPID name="" mc="Standard.MetaclassReference" uid="01ec25d4-0000-1767-0000-000000000000"/>
+        <COMPID name="" mc="Standard.MetaclassReference" uid="01ec25d4-0000-176d-0000-000000000000"/>
+        <COMPID name="" mc="Standard.MetaclassReference" uid="e561f99b-b354-11de-aba4-001302895b2b"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

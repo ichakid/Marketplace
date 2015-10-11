@@ -1,11 +1,8 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="JavaComponent" version="3">
-  <DEPS>
-    <ID name="JavaComponent" mc="Stereotype" uid="01ec1b44-0000-2111-0000-000000000000"/>
-  </DEPS>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="JavaComponent" version="4">
   <OBJECT>
-    <ID name="JavaComponent" mc="Stereotype" uid="01ec1b44-0000-2111-0000-000000000000"/>
-    <PID name="JavaExtensions" mc="Profile" uid="25801104-0000-1069-0000-000000000000"/>
+    <ID name="JavaComponent" mc="Standard.Stereotype" uid="01ec1b44-0000-2111-0000-000000000000"/>
+    <PID name="JavaExtensions" mc="Standard.Profile" uid="25801104-0000-1069-0000-000000000000"/>
     <ATTRIBUTES>
       <ATT name="Image"></ATT>
       <ATT name="Icon"><![CDATA[JavaDesigner/res/bmp/component.png]]></ATT>
@@ -18,8 +15,7 @@
     <DEPENDENCIES>
       <COMP relation="DefinedTagType">
         <OBJECT>
-          <ID name="GenerationPath" mc="TagType" uid="01ec1b44-0000-2119-0000-000000000000"/>
-          <PID name="JavaComponent" mc="Stereotype" uid="01ec1b44-0000-2111-0000-000000000000"/>
+          <ID name="GenerationPath" mc="Standard.TagType" uid="01ec1b44-0000-2119-0000-000000000000"/>
           <ATTRIBUTES>
             <ATT name="ParamNumber"><![CDATA[1]]></ATT>
             <ATT name="IsQualified">false</ATT>
@@ -32,8 +28,7 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="CopyrightFile" mc="TagType" uid="ae7ba76c-3e95-11e0-8fc3-002564c97630"/>
-          <PID name="JavaComponent" mc="Stereotype" uid="01ec1b44-0000-2111-0000-000000000000"/>
+          <ID name="CopyrightFile" mc="Standard.TagType" uid="ae7ba76c-3e95-11e0-8fc3-002564c97630"/>
           <ATTRIBUTES>
             <ATT name="ParamNumber"><![CDATA[1]]></ATT>
             <ATT name="IsQualified">false</ATT>
