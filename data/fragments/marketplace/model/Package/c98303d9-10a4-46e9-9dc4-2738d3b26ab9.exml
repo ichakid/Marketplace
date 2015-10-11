@@ -420,6 +420,61 @@
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
+                  <COMP relation="OwnedEnd">
+                    <OBJECT>
+                      <ID name="" mc="Standard.LinkEnd" uid="7c439c87-c148-48e1-8530-5a07cb4e7cff"/>
+                      <ATTRIBUTES>
+                        <ATT name="IsOrdered">false</ATT>
+                        <ATT name="IsUnique">false</ATT>
+                        <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                        <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Link">
+                          <OBJECT>
+                            <ID name="view" mc="Standard.Link" uid="931479b8-d1e4-4da8-b2e5-cf5d9a2c7dfb"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[view]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <LINK relation="Extension">
+                                <FOREIGNID name="ServiceChannel" mc="Standard.Stereotype" uid="01ec25d4-0000-16c8-0000-000000000000"/>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="provider" mc="Standard.BindableInstance" uid="d5990593-a3a9-4e10-875e-b97d2be6e9c8"/>
+                          </REFOBJ>
+                        </LINK>
+                        <COMP relation="Opposite">
+                          <OBJECT>
+                            <ID name="ServiceChannel" mc="Standard.LinkEnd" uid="a4090b40-d032-48c8-b64e-1137e56d4b4a"/>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                              <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                              <ATT name="Name"><![CDATA[ServiceChannel]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="Link">
+                                <COMPID name="view" mc="Standard.Link" uid="931479b8-d1e4-4da8-b2e5-cf5d9a2c7dfb"/>
+                              </COMP>
+                              <COMP relation="Opposite">
+                                <COMPID name="" mc="Standard.LinkEnd" uid="7c439c87-c148-48e1-8530-5a07cb4e7cff"/>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
                   <LINK relation="Base">
                     <ID name="Goods Viewer" mc="Standard.Interface" uid="892a339c-d873-4eec-8c30-c3542ba7ae61"/>
                   </LINK>
@@ -443,6 +498,95 @@
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
+            <COMP relation="Declared">
+              <OBJECT>
+                <ID name="provider" mc="Standard.BindableInstance" uid="48a8198c-c8da-46d9-9012-84366426bde2"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[provider]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Goods Owner" mc="Standard.Interface" uid="f84385d7-7fe9-456a-a7ec-8f2a1b7d2bca"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="consumer" mc="Standard.BindableInstance" uid="dbbef6f9-b469-4cd1-963a-ee0d29dfe6bc"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[consumer]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OwnedEnd">
+                    <OBJECT>
+                      <ID name="" mc="Standard.LinkEnd" uid="d14bf2d6-0065-4d0b-8ee4-4b8f3a452d4a"/>
+                      <ATTRIBUTES>
+                        <ATT name="IsOrdered">false</ATT>
+                        <ATT name="IsUnique">false</ATT>
+                        <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                        <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Link">
+                          <OBJECT>
+                            <ID name="buy" mc="Standard.Link" uid="77a439ad-ff17-44b7-b8b5-5f9f650e513c"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[buy]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <LINK relation="Extension">
+                                <FOREIGNID name="ServiceChannel" mc="Standard.Stereotype" uid="01ec25d4-0000-16c8-0000-000000000000"/>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="provider" mc="Standard.BindableInstance" uid="48a8198c-c8da-46d9-9012-84366426bde2"/>
+                          </REFOBJ>
+                        </LINK>
+                        <COMP relation="Opposite">
+                          <OBJECT>
+                            <ID name="ServiceChannel" mc="Standard.LinkEnd" uid="284e0212-e84f-4027-a230-bd4a192835bc"/>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                              <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                              <ATT name="Name"><![CDATA[ServiceChannel]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="Link">
+                                <COMPID name="buy" mc="Standard.Link" uid="77a439ad-ff17-44b7-b8b5-5f9f650e513c"/>
+                              </COMP>
+                              <COMP relation="Opposite">
+                                <COMPID name="" mc="Standard.LinkEnd" uid="d14bf2d6-0065-4d0b-8ee4-4b8f3a452d4a"/>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Base">
+                    <ID name="Goods Buyer" mc="Standard.Interface" uid="c9fdee75-2db3-4015-a363-76f215a396ef"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
             <LINK relation="Extension">
               <FOREIGNID name="ServiceContract" mc="Standard.Stereotype" uid="01ec25d4-0000-16cd-0000-000000000000"/>
             </LINK>
@@ -460,6 +604,92 @@
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
+            <COMP relation="Declared">
+              <OBJECT>
+                <ID name="consumer" mc="Standard.BindableInstance" uid="e06624b0-b60b-4975-bdaa-0e94fe95e2fa"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[consumer]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OwnedEnd">
+                    <OBJECT>
+                      <ID name="" mc="Standard.LinkEnd" uid="7a1b3cec-4307-4926-a73e-07af7b1dadab"/>
+                      <ATTRIBUTES>
+                        <ATT name="IsOrdered">false</ATT>
+                        <ATT name="IsUnique">false</ATT>
+                        <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                        <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Link">
+                          <OBJECT>
+                            <ID name="pay" mc="Standard.Link" uid="4bcda879-810d-48c6-b160-55c61b57a27d"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"><![CDATA[pay]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <LINK relation="Extension">
+                                <FOREIGNID name="ServiceChannel" mc="Standard.Stereotype" uid="01ec25d4-0000-16c8-0000-000000000000"/>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="provider" mc="Standard.BindableInstance" uid="2f40c7a3-a0da-4a19-a1e4-1965f9dc6d8b"/>
+                          </REFOBJ>
+                        </LINK>
+                        <COMP relation="Opposite">
+                          <OBJECT>
+                            <ID name="ServiceChannel" mc="Standard.LinkEnd" uid="c553ee8a-3e7d-4892-bb02-c7b3f49f9d4d"/>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                              <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                              <ATT name="Name"><![CDATA[ServiceChannel]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="Link">
+                                <COMPID name="pay" mc="Standard.Link" uid="4bcda879-810d-48c6-b160-55c61b57a27d"/>
+                              </COMP>
+                              <COMP relation="Opposite">
+                                <COMPID name="" mc="Standard.LinkEnd" uid="7a1b3cec-4307-4926-a73e-07af7b1dadab"/>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="provider" mc="Standard.BindableInstance" uid="2f40c7a3-a0da-4a19-a1e4-1965f9dc6d8b"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[provider]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Payment Receiver" mc="Standard.Interface" uid="1ce9554b-b879-4b04-9429-5b0615b1884e"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
             <LINK relation="Extension">
               <FOREIGNID name="ServiceContract" mc="Standard.Stereotype" uid="01ec25d4-0000-16cd-0000-000000000000"/>
             </LINK>
@@ -477,6 +707,92 @@
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
+            <COMP relation="Declared">
+              <OBJECT>
+                <ID name="consumer" mc="Standard.BindableInstance" uid="3f8dd490-3cc9-482a-9754-b5253c7ad406"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[consumer]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OwnedEnd">
+                    <OBJECT>
+                      <ID name="" mc="Standard.LinkEnd" uid="09503c87-8ec2-4c44-a367-b7f8b97f4596"/>
+                      <ATTRIBUTES>
+                        <ATT name="IsOrdered">false</ATT>
+                        <ATT name="IsUnique">false</ATT>
+                        <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                        <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Link">
+                          <OBJECT>
+                            <ID name="" mc="Standard.Link" uid="b078d733-12eb-4516-9139-91047789057b"/>
+                            <ATTRIBUTES>
+                              <ATT name="Name"></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <LINK relation="Extension">
+                                <FOREIGNID name="ServiceChannel" mc="Standard.Stereotype" uid="01ec25d4-0000-16c8-0000-000000000000"/>
+                              </LINK>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="provider" mc="Standard.BindableInstance" uid="9dbd2a99-b30b-4b1c-a2ac-334a845fd658"/>
+                          </REFOBJ>
+                        </LINK>
+                        <COMP relation="Opposite">
+                          <OBJECT>
+                            <ID name="ServiceChannel" mc="Standard.LinkEnd" uid="1e8421dc-c00f-4968-bb58-58c1c3411647"/>
+                            <ATTRIBUTES>
+                              <ATT name="IsOrdered">false</ATT>
+                              <ATT name="IsUnique">false</ATT>
+                              <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                              <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                              <ATT name="Name"><![CDATA[ServiceChannel]]></ATT>
+                              <ATT name="status">1970354901745664</ATT>
+                            </ATTRIBUTES>
+                            <DEPENDENCIES>
+                              <COMP relation="Link">
+                                <COMPID name="" mc="Standard.Link" uid="b078d733-12eb-4516-9139-91047789057b"/>
+                              </COMP>
+                              <COMP relation="Opposite">
+                                <COMPID name="" mc="Standard.LinkEnd" uid="09503c87-8ec2-4c44-a367-b7f8b97f4596"/>
+                              </COMP>
+                            </DEPENDENCIES>
+                          </OBJECT>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="provider" mc="Standard.BindableInstance" uid="9dbd2a99-b30b-4b1c-a2ac-334a845fd658"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[provider]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Payment Distributor" mc="Standard.Interface" uid="26beab3d-5412-499f-b255-3de5898eb2eb"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
             <LINK relation="Extension">
               <FOREIGNID name="ServiceContract" mc="Standard.Stereotype" uid="01ec25d4-0000-16cd-0000-000000000000"/>
             </LINK>
@@ -494,6 +810,36 @@
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
+            <COMP relation="Declared">
+              <OBJECT>
+                <ID name="consumer" mc="Standard.BindableInstance" uid="57d4bb7b-672f-42be-a344-ed6ca2148902"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[consumer]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="provider" mc="Standard.BindableInstance" uid="81a44ed6-fcb6-47f2-b775-3c97948a4471"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[provider]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Status Provider" mc="Standard.Interface" uid="6f4d996b-bb80-4046-8d5b-70a61d5d30c7"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
             <LINK relation="Extension">
               <FOREIGNID name="ServiceContract" mc="Standard.Stereotype" uid="01ec25d4-0000-16cd-0000-000000000000"/>
             </LINK>
@@ -511,6 +857,36 @@
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
+            <COMP relation="Declared">
+              <OBJECT>
+                <ID name="consumer" mc="Standard.BindableInstance" uid="cf9d59c9-68d4-4a0c-b518-f366a7198018"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[consumer]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="provider" mc="Standard.BindableInstance" uid="514abbbe-3ed9-46e6-9d70-63bdb9591ddd"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[provider]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Shipment Provider" mc="Standard.Interface" uid="ce8214fb-7789-4627-ae13-8a3a43833320"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
             <LINK relation="Extension">
               <FOREIGNID name="ServiceContract" mc="Standard.Stereotype" uid="01ec25d4-0000-16cd-0000-000000000000"/>
             </LINK>
@@ -560,7 +936,7 @@
                       <DEPENDENCIES>
                         <LINK relation="RepresentedFeature">
                           <REFOBJ>
-                            <ID name="viewer" mc="Standard.BindableInstance" uid="c3c4bc71-3501-404e-81a6-48a96c6a5c4c"/>
+                            <ID name="" mc="Standard.BindableInstance" uid="c3c4bc71-3501-404e-81a6-48a96c6a5c4c"/>
                           </REFOBJ>
                         </LINK>
                       </DEPENDENCIES>
@@ -821,13 +1197,13 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="viewer" mc="Standard.BindableInstance" uid="c3c4bc71-3501-404e-81a6-48a96c6a5c4c"/>
+                <ID name="" mc="Standard.BindableInstance" uid="c3c4bc71-3501-404e-81a6-48a96c6a5c4c"/>
                 <ATTRIBUTES>
                   <ATT name="IsConstant">false</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
                   <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
                   <ATT name="Value"></ATT>
-                  <ATT name="Name"><![CDATA[viewer]]></ATT>
+                  <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -890,6 +1266,12 @@
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
+        <COMPID name="Goods Buyer" mc="Standard.Interface" uid="c9fdee75-2db3-4015-a363-76f215a396ef"/>
+        <COMPID name="Goods Owner" mc="Standard.Interface" uid="f84385d7-7fe9-456a-a7ec-8f2a1b7d2bca"/>
+        <COMPID name="Payment Receiver" mc="Standard.Interface" uid="1ce9554b-b879-4b04-9429-5b0615b1884e"/>
+        <COMPID name="Payment Distributor" mc="Standard.Interface" uid="26beab3d-5412-499f-b255-3de5898eb2eb"/>
+        <COMPID name="Status Provider" mc="Standard.Interface" uid="6f4d996b-bb80-4046-8d5b-70a61d5d30c7"/>
+        <COMPID name="Shipment Provider" mc="Standard.Interface" uid="ce8214fb-7789-4627-ae13-8a3a43833320"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="SoaMLPackage" mc="Standard.Stereotype" uid="45a59b18-e4a9-11de-a5c8-001302895b2b"/>
