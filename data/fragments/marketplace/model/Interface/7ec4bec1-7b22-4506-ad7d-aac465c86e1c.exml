@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Goods Owner" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Payment Receiver" version="4">
   <OBJECT>
-    <ID name="Goods Owner" mc="Standard.Interface" uid="f84385d7-7fe9-456a-a7ec-8f2a1b7d2bca"/>
+    <ID name="Payment Receiver" mc="Standard.Interface" uid="7ec4bec1-7b22-4506-ad7d-aac465c86e1c"/>
     <PID name="Package" mc="Standard.Package" uid="c98303d9-10a4-46e9-9dc4-2738d3b26ab9"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Goods Owner]]></ATT>
+      <ATT name="Name"><![CDATA[Payment Receiver]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

@@ -511,7 +511,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="Base">
-                    <ID name="Goods Owner" mc="Standard.Interface" uid="f84385d7-7fe9-456a-a7ec-8f2a1b7d2bca"/>
+                    <ID name="Goods Owner" mc="Standard.Interface" uid="46d1e1a4-8d9d-4e62-9ef6-15839cd423da"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
@@ -582,7 +582,7 @@
                     </OBJECT>
                   </COMP>
                   <LINK relation="Base">
-                    <ID name="Goods Buyer" mc="Standard.Interface" uid="c9fdee75-2db3-4015-a363-76f215a396ef"/>
+                    <ID name="Goods Buyer" mc="Standard.Interface" uid="4344985b-fabc-41be-a26f-14e8c6c7c2e3"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
@@ -685,7 +685,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="Base">
-                    <ID name="Payment Receiver" mc="Standard.Interface" uid="1ce9554b-b879-4b04-9429-5b0615b1884e"/>
+                    <ID name="Payment Receiver" mc="Standard.Interface" uid="7ec4bec1-7b22-4506-ad7d-aac465c86e1c"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
@@ -788,7 +788,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="Base">
-                    <ID name="Payment Distributor" mc="Standard.Interface" uid="26beab3d-5412-499f-b255-3de5898eb2eb"/>
+                    <ID name="Payment Distributor" mc="Standard.Interface" uid="3e1427d6-c30a-4cf2-9162-8c0440ab9ca7"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
@@ -821,7 +821,11 @@
                   <ATT name="Name"><![CDATA[consumer]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
-                <DEPENDENCIES></DEPENDENCIES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Confirm Status" mc="Standard.Interface" uid="d18b2053-3bef-43bb-a157-980e9bd5539e"/>
+                  </LINK>
+                </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
                 <ID name="provider" mc="Standard.BindableInstance" uid="81a44ed6-fcb6-47f2-b775-3c97948a4471"/>
@@ -835,7 +839,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="Base">
-                    <ID name="Status Provider" mc="Standard.Interface" uid="6f4d996b-bb80-4046-8d5b-70a61d5d30c7"/>
+                    <ID name="Shipment Status" mc="Standard.Interface" uid="4158d3b8-c18c-4bf8-afc5-37cbeed7afcc"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
@@ -882,7 +886,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="Base">
-                    <ID name="Shipment Provider" mc="Standard.Interface" uid="ce8214fb-7789-4627-ae13-8a3a43833320"/>
+                    <ID name="Shipping Provider" mc="Standard.Interface" uid="37c5362d-be11-4d60-a5e7-4dd2cfbded7e"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
@@ -902,14 +906,14 @@
         <COMPID name="Goods Publisher" mc="Standard.Interface" uid="beb6d827-d35c-4b38-95fc-caf59f3f0f4f"/>
         <COMPID name="Buyer" mc="Standard.Class" uid="7f83bc83-f1b5-40ec-b2e4-aba25b818ed4"/>
         <OBJECT>
-          <ID name="Services Architecture" mc="Standard.Collaboration" uid="33dbb6db-4f31-44c2-82f0-aa4df117b888"/>
+          <ID name="Marketplace Architecture" mc="Standard.Collaboration" uid="33dbb6db-4f31-44c2-82f0-aa4df117b888"/>
           <ATTRIBUTES>
             <ATT name="IsConcurrent">false</ATT>
             <ATT name="IsAbstract">false</ATT>
             <ATT name="IsLeaf">false</ATT>
             <ATT name="IsRoot">false</ATT>
             <ATT name="Visibility">Public</ATT>
-            <ATT name="Name"><![CDATA[Services Architecture]]></ATT>
+            <ATT name="Name"><![CDATA[Marketplace Architecture]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -953,6 +957,11 @@
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES>
+                        <LINK relation="Role">
+                          <REFOBJ>
+                            <ID name="provider" mc="Standard.BindableInstance" uid="040a0f77-862d-4ac7-a48e-9cc40fa47aaf"/>
+                          </REFOBJ>
+                        </LINK>
                         <LINK relation="RepresentedFeature">
                           <REFOBJ>
                             <ID name="seller" mc="Standard.BindableInstance" uid="8c854086-a120-467a-8d8e-27258fb5fc8d"/>
@@ -983,6 +992,11 @@
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES>
+                        <LINK relation="Role">
+                          <REFOBJ>
+                            <ID name="consumer" mc="Standard.BindableInstance" uid="dbbef6f9-b469-4cd1-963a-ee0d29dfe6bc"/>
+                          </REFOBJ>
+                        </LINK>
                         <LINK relation="RepresentedFeature">
                           <REFOBJ>
                             <ID name="buyer" mc="Standard.BindableInstance" uid="a294cb3b-a0a2-45f0-85e9-465512350e01"/>
@@ -997,6 +1011,11 @@
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES>
+                        <LINK relation="Role">
+                          <REFOBJ>
+                            <ID name="provider" mc="Standard.BindableInstance" uid="48a8198c-c8da-46d9-9012-84366426bde2"/>
+                          </REFOBJ>
+                        </LINK>
                         <LINK relation="RepresentedFeature">
                           <REFOBJ>
                             <ID name="seller" mc="Standard.BindableInstance" uid="8c854086-a120-467a-8d8e-27258fb5fc8d"/>
@@ -1027,6 +1046,11 @@
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES>
+                        <LINK relation="Role">
+                          <REFOBJ>
+                            <ID name="consumer" mc="Standard.BindableInstance" uid="e06624b0-b60b-4975-bdaa-0e94fe95e2fa"/>
+                          </REFOBJ>
+                        </LINK>
                         <LINK relation="RepresentedFeature">
                           <REFOBJ>
                             <ID name="buyer" mc="Standard.BindableInstance" uid="a294cb3b-a0a2-45f0-85e9-465512350e01"/>
@@ -1041,6 +1065,11 @@
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES>
+                        <LINK relation="Role">
+                          <REFOBJ>
+                            <ID name="provider" mc="Standard.BindableInstance" uid="2f40c7a3-a0da-4a19-a1e4-1965f9dc6d8b"/>
+                          </REFOBJ>
+                        </LINK>
                         <LINK relation="RepresentedFeature">
                           <REFOBJ>
                             <ID name="pg" mc="Standard.BindableInstance" uid="0a963c9a-ae5e-4ca1-ae91-e4c6953d441b"/>
@@ -1071,6 +1100,11 @@
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES>
+                        <LINK relation="Role">
+                          <REFOBJ>
+                            <ID name="provider" mc="Standard.BindableInstance" uid="9dbd2a99-b30b-4b1c-a2ac-334a845fd658"/>
+                          </REFOBJ>
+                        </LINK>
                         <LINK relation="RepresentedFeature">
                           <REFOBJ>
                             <ID name="pg" mc="Standard.BindableInstance" uid="0a963c9a-ae5e-4ca1-ae91-e4c6953d441b"/>
@@ -1085,6 +1119,11 @@
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES>
+                        <LINK relation="Role">
+                          <REFOBJ>
+                            <ID name="consumer" mc="Standard.BindableInstance" uid="3f8dd490-3cc9-482a-9754-b5253c7ad406"/>
+                          </REFOBJ>
+                        </LINK>
                         <LINK relation="RepresentedFeature">
                           <REFOBJ>
                             <ID name="seller" mc="Standard.BindableInstance" uid="8c854086-a120-467a-8d8e-27258fb5fc8d"/>
@@ -1115,6 +1154,11 @@
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES>
+                        <LINK relation="Role">
+                          <REFOBJ>
+                            <ID name="consumer" mc="Standard.BindableInstance" uid="57d4bb7b-672f-42be-a344-ed6ca2148902"/>
+                          </REFOBJ>
+                        </LINK>
                         <LINK relation="RepresentedFeature">
                           <REFOBJ>
                             <ID name="buyer" mc="Standard.BindableInstance" uid="a294cb3b-a0a2-45f0-85e9-465512350e01"/>
@@ -1129,6 +1173,11 @@
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES>
+                        <LINK relation="Role">
+                          <REFOBJ>
+                            <ID name="provider" mc="Standard.BindableInstance" uid="81a44ed6-fcb6-47f2-b775-3c97948a4471"/>
+                          </REFOBJ>
+                        </LINK>
                         <LINK relation="RepresentedFeature">
                           <REFOBJ>
                             <ID name="shipper" mc="Standard.BindableInstance" uid="c7b4e610-608c-4f9a-9d33-ea621687562c"/>
@@ -1159,6 +1208,11 @@
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES>
+                        <LINK relation="Role">
+                          <REFOBJ>
+                            <ID name="provider" mc="Standard.BindableInstance" uid="514abbbe-3ed9-46e6-9d70-63bdb9591ddd"/>
+                          </REFOBJ>
+                        </LINK>
                         <LINK relation="RepresentedFeature">
                           <REFOBJ>
                             <ID name="shipper" mc="Standard.BindableInstance" uid="c7b4e610-608c-4f9a-9d33-ea621687562c"/>
@@ -1173,6 +1227,11 @@
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES>
+                        <LINK relation="Role">
+                          <REFOBJ>
+                            <ID name="consumer" mc="Standard.BindableInstance" uid="cf9d59c9-68d4-4a0c-b518-f366a7198018"/>
+                          </REFOBJ>
+                        </LINK>
                         <LINK relation="RepresentedFeature">
                           <REFOBJ>
                             <ID name="seller" mc="Standard.BindableInstance" uid="8c854086-a120-467a-8d8e-27258fb5fc8d"/>
@@ -1271,13 +1330,18 @@
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
-        <COMPID name="Goods Buyer" mc="Standard.Interface" uid="c9fdee75-2db3-4015-a363-76f215a396ef"/>
-        <COMPID name="Goods Owner" mc="Standard.Interface" uid="f84385d7-7fe9-456a-a7ec-8f2a1b7d2bca"/>
-        <COMPID name="Payment Receiver" mc="Standard.Interface" uid="1ce9554b-b879-4b04-9429-5b0615b1884e"/>
-        <COMPID name="Payment Distributor" mc="Standard.Interface" uid="26beab3d-5412-499f-b255-3de5898eb2eb"/>
-        <COMPID name="Status Provider" mc="Standard.Interface" uid="6f4d996b-bb80-4046-8d5b-70a61d5d30c7"/>
-        <COMPID name="Shipment Provider" mc="Standard.Interface" uid="ce8214fb-7789-4627-ae13-8a3a43833320"/>
         <COMPID name="Buy Goods" mc="Standard.Class" uid="6dc5ceb8-a64d-4a78-bd1b-8db6a0b9f28f"/>
+        <COMPID name="Goods Owner" mc="Standard.Interface" uid="46d1e1a4-8d9d-4e62-9ef6-15839cd423da"/>
+        <COMPID name="Goods Buyer" mc="Standard.Interface" uid="4344985b-fabc-41be-a26f-14e8c6c7c2e3"/>
+        <COMPID name="Payment" mc="Standard.Class" uid="e22db379-9550-45ce-9399-7a73cb41c01f"/>
+        <COMPID name="Distribute Payment" mc="Standard.Class" uid="68eccafe-7612-4ad0-aabb-61a0c14c17c5"/>
+        <COMPID name="Shipping Request" mc="Standard.Class" uid="e67afbd5-39bb-4a02-abf2-cdda28a08475"/>
+        <COMPID name="Shipping Status" mc="Standard.Class" uid="22b86e22-a387-4d1c-9d49-0482b76d06e8"/>
+        <COMPID name="Shipment Status" mc="Standard.Interface" uid="4158d3b8-c18c-4bf8-afc5-37cbeed7afcc"/>
+        <COMPID name="Confirm Status" mc="Standard.Interface" uid="d18b2053-3bef-43bb-a157-980e9bd5539e"/>
+        <COMPID name="Payment Receiver" mc="Standard.Interface" uid="7ec4bec1-7b22-4506-ad7d-aac465c86e1c"/>
+        <COMPID name="Payment Distributor" mc="Standard.Interface" uid="3e1427d6-c30a-4cf2-9162-8c0440ab9ca7"/>
+        <COMPID name="Shipping Provider" mc="Standard.Interface" uid="37c5362d-be11-4d60-a5e7-4dd2cfbded7e"/>
       </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="SoaMLPackage" mc="Standard.Stereotype" uid="45a59b18-e4a9-11de-a5c8-001302895b2b"/>

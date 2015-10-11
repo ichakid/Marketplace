@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Buy Goods" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Shipping Status" version="4">
   <OBJECT>
-    <ID name="Buy Goods" mc="Standard.Class" uid="6dc5ceb8-a64d-4a78-bd1b-8db6a0b9f28f"/>
+    <ID name="Shipping Status" mc="Standard.Class" uid="22b86e22-a387-4d1c-9d49-0482b76d06e8"/>
     <PID name="Package" mc="Standard.Package" uid="c98303d9-10a4-46e9-9dc4-2738d3b26ab9"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,32 +11,32 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Buy Goods]]></ATT>
+      <ATT name="Name"><![CDATA[Shipping Status]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="Realized">
         <OBJECT>
-          <ID name="InterfaceRealization" mc="Standard.InterfaceRealization" uid="b2847ae3-75d0-4f61-a76e-4880ed2f5d04"/>
+          <ID name="InterfaceRealization" mc="Standard.InterfaceRealization" uid="0943e736-1f0b-4c71-9ada-4530a1f9e2ac"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[InterfaceRealization]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Implemented">
-              <ID name="GoodsOwner" mc="Standard.Interface" uid="46d1e1a4-8d9d-4e62-9ef6-15839cd423da"/>
+              <ID name="Shipment Status" mc="Standard.Interface" uid="4158d3b8-c18c-4bf8-afc5-37cbeed7afcc"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="InterfaceRealization" mc="Standard.InterfaceRealization" uid="d9503587-e099-4ac1-9867-606f245b28a9"/>
+          <ID name="InterfaceRealization" mc="Standard.InterfaceRealization" uid="34d9711e-c254-4c79-b8fc-19684ab4814c"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[InterfaceRealization]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Implemented">
-              <ID name="GoodsBuyer" mc="Standard.Interface" uid="4344985b-fabc-41be-a26f-14e8c6c7c2e3"/>
+              <ID name="Confirm Status" mc="Standard.Interface" uid="d18b2053-3bef-43bb-a157-980e9bd5539e"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Shipment Provider" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Goods Owner" version="4">
   <OBJECT>
-    <ID name="Shipment Provider" mc="Standard.Interface" uid="ce8214fb-7789-4627-ae13-8a3a43833320"/>
+    <ID name="Goods Owner" mc="Standard.Interface" uid="46d1e1a4-8d9d-4e62-9ef6-15839cd423da"/>
     <PID name="Package" mc="Standard.Package" uid="c98303d9-10a4-46e9-9dc4-2738d3b26ab9"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Shipment Provider]]></ATT>
+      <ATT name="Name"><![CDATA[Goods Owner]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

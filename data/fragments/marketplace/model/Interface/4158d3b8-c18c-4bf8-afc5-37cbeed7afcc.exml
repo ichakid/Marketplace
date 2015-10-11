@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Status Provider" version="4">
   <OBJECT>
-    <ID name="Status Provider" mc="Standard.Interface" uid="6f4d996b-bb80-4046-8d5b-70a61d5d30c7"/>
+    <ID name="Status Provider" mc="Standard.Interface" uid="4158d3b8-c18c-4bf8-afc5-37cbeed7afcc"/>
     <PID name="Package" mc="Standard.Package" uid="c98303d9-10a4-46e9-9dc4-2738d3b26ab9"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
