@@ -15,6 +15,47 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <OBJECT>
+          <ID name="packaging" mc="Standard.Enumeration" uid="9a619d13-dec2-46e8-95be-c3dd86039ed0"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[packaging]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="onTheWay" mc="Standard.Enumeration" uid="b65204be-4dc2-4548-a188-bafc876d4a6e"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[onTheWay]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="delivered" mc="Standard.Enumeration" uid="81d18a28-b8fa-4974-93b2-5f860da5a7e5"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[delivered]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
       <LINK relation="Extension">
         <FOREIGNID name="MessageType_Class" mc="Standard.Stereotype" uid="01ec25d4-0000-1674-0000-000000000000"/>
       </LINK>
