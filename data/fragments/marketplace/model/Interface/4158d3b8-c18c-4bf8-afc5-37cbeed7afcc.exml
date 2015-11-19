@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Status Provider" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Shipment Request Provider" version="4">
   <OBJECT>
-    <ID name="Status Provider" mc="Standard.Interface" uid="4158d3b8-c18c-4bf8-afc5-37cbeed7afcc"/>
+    <ID name="Shipment Request Provider" mc="Standard.Interface" uid="4158d3b8-c18c-4bf8-afc5-37cbeed7afcc"/>
     <PID name="Package" mc="Standard.Package" uid="c98303d9-10a4-46e9-9dc4-2738d3b26ab9"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,13 +9,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Status Provider]]></ATT>
+      <ATT name="Name"><![CDATA[Shipment Request Provider]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedOperation">
         <OBJECT>
-          <ID name="updateStatus" mc="Standard.Operation" uid="973124eb-b254-4ded-841a-84856cffee13"/>
+          <ID name="startShipping" mc="Standard.Operation" uid="0f5f7aaf-f8f8-437a-9827-0c319b908e06"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -23,13 +23,13 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[updateStatus]]></ATT>
+            <ATT name="Name"><![CDATA[startShipping]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="IO">
               <OBJECT>
-                <ID name="shipmentId" mc="Standard.Parameter" uid="2af6b0f6-5b7e-48b5-8013-921bcaf1e449"/>
+                <ID name="shipmentId" mc="Standard.Parameter" uid="bdf86c30-2ce8-4d60-9f84-9557f10dcdb6"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -46,12 +46,14 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="Type">
-                    <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+                    <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
+            </COMP>
+            <COMP relation="Return">
               <OBJECT>
-                <ID name="status" mc="Standard.Parameter" uid="eda65c03-f946-4253-8a9f-2262e4562937"/>
+                <ID name="" mc="Standard.Parameter" uid="cb6d40e9-fa6f-4705-9e19-68ef783b495d"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -63,12 +65,12 @@
                   <ATT name="IsException">false</ATT>
                   <ATT name="IsStream">false</ATT>
                   <ATT name="Effect">ReadEffect</ATT>
-                  <ATT name="Name"><![CDATA[status]]></ATT>
+                  <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="Type">
-                    <ID name="ShipmentStatus" mc="Standard.Class" uid="4d96b67c-3dc2-4f53-af37-c8c85228d5f2"/>
+                    <FOREIGNID name="Void" mc="Standard.Class" uid="00d00398-0000-2b83-0000-000000000000"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>

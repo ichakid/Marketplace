@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Shipment" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Item" version="4">
   <OBJECT>
-    <ID name="Shipment" mc="Standard.Class" uid="aedd5b49-c11f-494a-8cbb-f1bd696bf6c6"/>
+    <ID name="Item" mc="Standard.Class" uid="b4a79f56-b024-49e1-8e70-42995b2d34bd"/>
     <PID name="Package" mc="Standard.Package" uid="c98303d9-10a4-46e9-9dc4-2738d3b26ab9"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Shipment]]></ATT>
+      <ATT name="Name"><![CDATA[Item]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="id" mc="Standard.Attribute" uid="14477322-936e-4325-a4b5-620ee9fac46a"/>
+          <ID name="goodsId" mc="Standard.Attribute" uid="2c8d0ead-e00b-4bbc-aca4-f19322e7f4a5"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -31,20 +31,17 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[id]]></ATT>
+            <ATT name="Name"><![CDATA[goodsId]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
               <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
             </LINK>
-            <LINK relation="Extension">
-              <FOREIGNID name="id_Attribute" mc="Standard.Stereotype" uid="0208014c-0000-356d-0000-000000000000"/>
-            </LINK>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="status" mc="Standard.Attribute" uid="efa31572-df13-4cdb-a2dc-a4139f295c26"/>
+          <ID name="amount" mc="Standard.Attribute" uid="b96e3a5d-6573-4348-afbe-dbac1b02c964"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -58,31 +55,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[status]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Type">
-              <ID name="ShipmentStatus" mc="Standard.Class" uid="4d96b67c-3dc2-4f53-af37-c8c85228d5f2"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="orderId" mc="Standard.Attribute" uid="94dbe080-f9d9-4d95-aeb1-9006b6cc67fa"/>
-          <ATTRIBUTES>
-            <ATT name="TypeConstraint"></ATT>
-            <ATT name="Value"></ATT>
-            <ATT name="TargetIsClass">false</ATT>
-            <ATT name="Changeable">ReadWrite</ATT>
-            <ATT name="IsDerived">false</ATT>
-            <ATT name="IsOrdered">false</ATT>
-            <ATT name="IsUnique">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="IsClass">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[orderId]]></ATT>
+            <ATT name="Name"><![CDATA[amount]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>

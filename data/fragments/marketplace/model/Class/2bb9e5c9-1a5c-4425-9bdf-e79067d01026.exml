@@ -30,27 +30,14 @@
           <DEPENDENCIES></DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="pending" mc="Standard.Enumeration" uid="3ea8b91f-e800-4700-a7e7-dc45c78f6d87"/>
+          <ID name="paid" mc="Standard.Enumeration" uid="3ea8b91f-e800-4700-a7e7-dc45c78f6d87"/>
           <ATTRIBUTES>
             <ATT name="IsElementary">false</ATT>
             <ATT name="IsAbstract">false</ATT>
             <ATT name="IsLeaf">false</ATT>
             <ATT name="IsRoot">false</ATT>
             <ATT name="Visibility">Public</ATT>
-            <ATT name="Name"><![CDATA[pending]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES></DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="verified" mc="Standard.Enumeration" uid="74edec86-997e-49a8-b7d9-4accbb655b66"/>
-          <ATTRIBUTES>
-            <ATT name="IsElementary">false</ATT>
-            <ATT name="IsAbstract">false</ATT>
-            <ATT name="IsLeaf">false</ATT>
-            <ATT name="IsRoot">false</ATT>
-            <ATT name="Visibility">Public</ATT>
-            <ATT name="Name"><![CDATA[verified]]></ATT>
+            <ATT name="Name"><![CDATA[paid]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES></DEPENDENCIES>

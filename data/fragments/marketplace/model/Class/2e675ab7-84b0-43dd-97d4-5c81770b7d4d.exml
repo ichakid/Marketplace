@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Shipment Request Interface" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ShipmentRequestInterface" version="4">
   <OBJECT>
-    <ID name="Shipment Request Interface" mc="Standard.Class" uid="e67afbd5-39bb-4a02-abf2-cdda28a08475"/>
+    <ID name="ShipmentRequestInterface" mc="Standard.Class" uid="2e675ab7-84b0-43dd-97d4-5c81770b7d4d"/>
     <PID name="Package" mc="Standard.Package" uid="c98303d9-10a4-46e9-9dc4-2738d3b26ab9"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,20 +11,32 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Shipment Request Interface]]></ATT>
+      <ATT name="Name"><![CDATA[ShipmentRequestInterface]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="Realized">
         <OBJECT>
-          <ID name="InterfaceRealization" mc="Standard.InterfaceRealization" uid="89426e6a-4037-4b07-b26f-e150fdc1496a"/>
+          <ID name="InterfaceRealization" mc="Standard.InterfaceRealization" uid="61a5a7fe-3be5-4029-beca-9d69735dcc17"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[InterfaceRealization]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Implemented">
-              <ID name="Shipment Provider" mc="Standard.Interface" uid="37c5362d-be11-4d60-a5e7-4dd2cfbded7e"/>
+              <ID name="Shipment Request Provider" mc="Standard.Interface" uid="4158d3b8-c18c-4bf8-afc5-37cbeed7afcc"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InterfaceRealization" mc="Standard.InterfaceRealization" uid="ce6388bd-f186-4438-abba-9be5d1df36b5"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InterfaceRealization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Implemented">
+              <ID name="Shipment Request Consumer" mc="Standard.Interface" uid="8e148b26-9f8d-4505-95fd-bce0dec539c3"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

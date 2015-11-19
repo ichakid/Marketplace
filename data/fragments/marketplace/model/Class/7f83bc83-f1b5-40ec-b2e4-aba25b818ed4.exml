@@ -60,44 +60,7 @@
               </OBJECT>
             </COMP>
             <LINK relation="Base">
-              <ID name="Buy Goods" mc="Standard.Class" uid="6dc5ceb8-a64d-4a78-bd1b-8db6a0b9f28f"/>
-            </LINK>
-            <LINK relation="Extension">
-              <FOREIGNID name="Request" mc="Standard.Stereotype" uid="01ec25d4-0000-16bd-0000-000000000000"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="~Request" mc="Standard.Port" uid="73cd8756-8ad4-47aa-ac20-873f1e3c7b08"/>
-          <ATTRIBUTES>
-            <ATT name="IsBehavior">false</ATT>
-            <ATT name="IsService">true</ATT>
-            <ATT name="IsConjugated">false</ATT>
-            <ATT name="Direction">None</ATT>
-            <ATT name="IsConstant">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Value"></ATT>
-            <ATT name="Name"><![CDATA[~Request]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <COMP relation="Required">
-              <OBJECT>
-                <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="803d3a5a-2041-40ad-bcd7-238cd038f888"/>
-                <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="RequiredElement">
-                    <ID name="Payment Receiver" mc="Standard.Interface" uid="7ec4bec1-7b22-4506-ad7d-aac465c86e1c"/>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-            <LINK relation="Base">
-              <ID name="Payment" mc="Standard.Class" uid="e22db379-9550-45ce-9399-7a73cb41c01f"/>
+              <ID name="Buy Goods Interface" mc="Standard.Class" uid="6dc5ceb8-a64d-4a78-bd1b-8db6a0b9f28f"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="Request" mc="Standard.Stereotype" uid="01ec25d4-0000-16bd-0000-000000000000"/>
@@ -119,39 +82,59 @@
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
-            <COMP relation="Provided">
-              <OBJECT>
-                <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="75252931-577d-4e22-9f8b-a27e866826d0"/>
-                <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[ProvidedInterface]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="ProvidedElement">
-                    <ID name="Status Verifier" mc="Standard.Interface" uid="d18b2053-3bef-43bb-a157-980e9bd5539e"/>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
             <COMP relation="Required">
               <OBJECT>
-                <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="1a7cc5e7-ceec-48dd-98b8-f6bf57b5f509"/>
+                <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="7aa584ef-55f6-4ec1-be8c-b64aaed6f2fc"/>
                 <ATTRIBUTES>
                   <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="RequiredElement">
-                    <ID name="Status Provider" mc="Standard.Interface" uid="4158d3b8-c18c-4bf8-afc5-37cbeed7afcc"/>
+                    <ID name="Shipment Status Consumer" mc="Standard.Interface" uid="d18b2053-3bef-43bb-a157-980e9bd5539e"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
             </COMP>
             <LINK relation="Base">
-              <ID name="Shipping Status" mc="Standard.Class" uid="22b86e22-a387-4d1c-9d49-0482b76d06e8"/>
+              <ID name="ShipmentStatusInterface" mc="Standard.Class" uid="22b86e22-a387-4d1c-9d49-0482b76d06e8"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="Request" mc="Standard.Stereotype" uid="01ec25d4-0000-16bd-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Service" mc="Standard.Port" uid="6fee9a09-9cfa-41ac-94ca-2a6664f5f19d"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Service]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Provided">
+              <OBJECT>
+                <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="51348a8e-c6a7-4f78-a98e-3ac31bbea5e7"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[ProvidedInterface]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="ProvidedElement">
+                    <ID name="Payment Receiver" mc="Standard.Interface" uid="7ec4bec1-7b22-4506-ad7d-aac465c86e1c"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="Service" mc="Standard.Stereotype" uid="01ec25d4-0000-16e3-0000-000000000000"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>

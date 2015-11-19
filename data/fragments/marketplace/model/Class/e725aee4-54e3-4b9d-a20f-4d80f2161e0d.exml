@@ -17,7 +17,7 @@
     <DEPENDENCIES>
       <COMP relation="InternalStructure">
         <OBJECT>
-          <ID name="Distribute Payment" mc="Standard.Port" uid="9d2268a4-3c5f-4985-b8bc-c3c98df3c8fa"/>
+          <ID name="Request" mc="Standard.Port" uid="90686479-cdca-494f-bcdf-2b7aa8d5bf55"/>
           <ATTRIBUTES>
             <ATT name="IsBehavior">false</ATT>
             <ATT name="IsService">true</ATT>
@@ -27,66 +27,26 @@
             <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
             <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
             <ATT name="Value"></ATT>
-            <ATT name="Name"><![CDATA[Distribute Payment]]></ATT>
+            <ATT name="Name"><![CDATA[Request]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
-            <COMP relation="Provided">
+            <COMP relation="Required">
               <OBJECT>
-                <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="1503e97f-d82b-4690-a1aa-9b095525b711"/>
+                <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="17707c93-0338-4fce-9f8c-cb84ac5af5c6"/>
                 <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[ProvidedInterface]]></ATT>
+                  <ATT name="Name"><![CDATA[RequiredInterface]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
-                  <LINK relation="ProvidedElement">
-                    <ID name="Payment Distributor" mc="Standard.Interface" uid="3e1427d6-c30a-4cf2-9162-8c0440ab9ca7"/>
+                  <LINK relation="RequiredElement">
+                    <ID name="Payment Receiver Consumer" mc="Standard.Interface" uid="1249c277-824d-4dde-bd33-72bf040fc760"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
             </COMP>
-            <LINK relation="Base">
-              <ID name="Distribute Payment" mc="Standard.Class" uid="68eccafe-7612-4ad0-aabb-61a0c14c17c5"/>
-            </LINK>
             <LINK relation="Extension">
-              <FOREIGNID name="Service" mc="Standard.Stereotype" uid="01ec25d4-0000-16e3-0000-000000000000"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="Payment" mc="Standard.Port" uid="6dd00744-9ac2-4efe-ba80-368983f6a656"/>
-          <ATTRIBUTES>
-            <ATT name="IsBehavior">false</ATT>
-            <ATT name="IsService">true</ATT>
-            <ATT name="IsConjugated">false</ATT>
-            <ATT name="Direction">None</ATT>
-            <ATT name="IsConstant">false</ATT>
-            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
-            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
-            <ATT name="Value"></ATT>
-            <ATT name="Name"><![CDATA[Payment]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <COMP relation="Provided">
-              <OBJECT>
-                <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="c7cabae3-efff-4507-a45c-d83db1c72a37"/>
-                <ATTRIBUTES>
-                  <ATT name="Name"><![CDATA[ProvidedInterface]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="ProvidedElement">
-                    <ID name="Payment Receiver" mc="Standard.Interface" uid="7ec4bec1-7b22-4506-ad7d-aac465c86e1c"/>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-            <LINK relation="Base">
-              <ID name="Payment" mc="Standard.Class" uid="e22db379-9550-45ce-9399-7a73cb41c01f"/>
-            </LINK>
-            <LINK relation="Extension">
-              <FOREIGNID name="Service" mc="Standard.Stereotype" uid="01ec25d4-0000-16e3-0000-000000000000"/>
+              <FOREIGNID name="Request" mc="Standard.Stereotype" uid="01ec25d4-0000-16bd-0000-000000000000"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
