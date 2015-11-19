@@ -1193,8 +1193,6 @@
         <COMPID name="Ship" mc="Standard.Class" uid="2522e055-191b-475a-b109-b69afea6d7bc"/>
         <COMPID name="CRUD" mc="Standard.Class" uid="dc33e10b-56dc-43d5-a21e-ac03da965196"/>
         <COMPID name="OrderProcessing" mc="Standard.Class" uid="dc0de772-f5b1-4b39-983b-1960391f26b6"/>
-        <COMPID name="Cart" mc="Standard.Class" uid="8e84d92a-a221-40eb-8668-513045a76da4"/>
-        <COMPID name="Item" mc="Standard.Class" uid="b4a79f56-b024-49e1-8e70-42995b2d34bd"/>
         <COMPID name="User" mc="Standard.Class" uid="c8071d30-db5e-4382-9e24-704501c00d20"/>
         <COMPID name="SalesInfo" mc="Standard.Class" uid="e111a954-f790-47fa-984c-97ec7654e35d"/>
         <COMPID name="ShipmentRequestInterface" mc="Standard.Class" uid="2e675ab7-84b0-43dd-97d4-5c81770b7d4d"/>
